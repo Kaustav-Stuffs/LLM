@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+pydantic
+google-generativeai
+langchain_ollama
+rank_bm25
+sentence-transformers
+scikit-learn
+numpy
+# If you use PyMuPDF for PDF support (commented in main.py), uncomment the next line:
+pymupdf
+# If you use OpenAI models in webcamaccess.py, uncomment the next line:
+openai
