@@ -5,7 +5,7 @@ import re
 
 
 
-FILE_PATH= "/home/kaustav/AIML/NLP/data/doc1.json"
+FILE_PATH= "./doc1.json"
 # Function to call Gemini-2.0-Flash API
 def call_gemini_api(paragraph, api_key):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"

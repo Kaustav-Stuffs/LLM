@@ -1,0 +1,692 @@
+[
+  {
+    "id": "1",
+    "text": "Question: What is the purpose of the SFA application? Answer: The SFA application helps track client visits, schedule meetings, record expenses, and manage salesforce tasks digitally.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "purpose",
+        "salesforce",
+        "track",
+        "meetings",
+        "expenses",
+        "client visits"
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "text": "Question: How can I log in to the SFA application as a user? Answer: You need your Employee ID, Password, and Company Identifier to log in. Then tap the 'Login' button.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "login",
+        "user",
+        "Employee ID",
+        "Password",
+        "Company Identifier"
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "text": "Question: Can an Admin or Manager log in with the same credentials format as a user? Answer: Yes, Admins and Managers also log in using their Employee ID, Password, and Company Identifier.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "login",
+        "Admin",
+        "Manager",
+        "credentials",
+        "Employee ID",
+        "Password",
+        "Company Identifier"
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "text": "Question: How do I start or stop my Outdoor Duty (OD)? Answer: Tap the 'Toggle Button' on the Dashboard to start or stop Outdoor Duty.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "Outdoor Duty",
+        "OD",
+        "start",
+        "stop",
+        "Toggle Button",
+        "Dashboard"
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "text": "Question: Why is it important to create a meeting for every client visit? Answer: Creating meetings logs your visit and helps calculate travel distance, which is essential for tracking and reporting.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "meeting",
+        "client visit",
+        "travel distance",
+        "tracking",
+        "reporting"
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "text": "Question: How can I create a meeting for an existing client? Answer: Tap 'Meeting', press the '+' button, select 'Existing Client', choose the client, and enter meeting details after the meeting ends.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "meeting",
+        "existing client",
+        "create",
+        "meeting details"
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "text": "Question: How can I create / mark meeting for a new client? Answer: Tap 'Meeting', press the '+' button, select 'New Client', fill in client details, save, and then submit the meeting details.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "meeting",
+        "new client",
+        "create",
+        "client details",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "8",
+    "text": "Question: What does 'Mark Meeting Without Info' mean? Answer: It allows you to mark a meeting at a location without filling client or meeting details. Default info is saved automatically.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "Mark Meeting Without Info",
+        "meeting",
+        "location",
+        "default info"
+      ]
+    }
+  },
+  {
+    "id": "9",
+    "text": "Question: Can I schedule a follow-up meeting while creating the current meeting? Answer: Yes, follow-ups can be scheduled during the meeting entry process.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "follow-up",
+        "meeting",
+        "schedule",
+        "meeting entry"
+      ]
+    }
+  },
+  {
+    "id": "10",
+    "text": "Question: How can I add meeting-wise expenses? Answer: Go to the Meeting list, select a meeting, tap 'Add Expense', fill in details, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "meeting",
+        "add expense",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "11",
+    "text": "Question: Is it possible to view the route taken during OD meetings? Answer: Yes, each meeting includes a 'Route' option that lets you view your OD path using a map.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "route",
+        "Outdoor Duty",
+        "OD",
+        "meetings",
+        "map"
+      ]
+    }
+  },
+  {
+    "id": "12",
+    "text": "Question: How do I create a new lead or client in the system? Answer: Go to 'Leads/Clients', tap the '+' button, fill in the required fields, and tap 'Add Lead/Client'.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "lead",
+        "client",
+        "create",
+        "add",
+        "Leads/Clients"
+      ]
+    }
+  },
+  {
+    "id": "13",
+    "text": "Question: How can I update an existing lead or client? Answer: Select a lead or client, tap 'Edit' on the top right, modify details, and tap 'Update'.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "lead",
+        "client",
+        "update",
+        "edit"
+      ]
+    }
+  },
+  {
+    "id": "14",
+    "text": "Question: Can I add branches to an existing client? Answer: Yes, use the 'Branch' option while editing a client to add branches.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "client",
+        "branches",
+        "add",
+        "edit"
+      ]
+    }
+  },
+  {
+    "id": "15",
+    "text": "Question: How can I schedule a future meeting? Answer: From the Leads/Clients list, choose the client, tap 'Schedule Meeting', enter details, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "schedule",
+        "meeting",
+        "future",
+        "Leads/Clients",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "16",
+    "text": "Question: Can an Admin or Manager schedule meetings for other users? Answer: Yes, Admins and Managers get a dropdown to assign meetings to users.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "Admin",
+        "Manager",
+        "schedule",
+        "meetings",
+        "assign",
+        "users"
+      ]
+    }
+  },
+  {
+    "id": "17",
+    "text": "Question: What is the Follow-Ups section used for? Answer: It allows users to view, reschedule, cancel, or reassign previously scheduled follow-up meetings.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "Follow-Ups",
+        "view",
+        "reschedule",
+        "cancel",
+        "reassign",
+        "meetings"
+      ]
+    }
+  },
+  {
+    "id": "18",
+    "text": "Question: Under what conditions can a meeting be rescheduled? Answer: Only if the assigned user hasn't started OD and the meeting time hasn't started.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "reschedule",
+        "meeting",
+        "Outdoor Duty",
+        "OD",
+        "conditions"
+      ]
+    }
+  },
+  {
+    "id": "19",
+    "text": "Question: How can I reschedule a meeting? Answer: Go to Follow-Ups, select a meeting, tap 'Reschedule', fill in the details, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "reschedule",
+        "meeting",
+        "Follow-Ups",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "20",
+    "text": "Question: How can I cancel a scheduled meeting? Answer: Go to Follow-Ups, select the meeting, tap 'Cancel', provide a cancellation remark, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "cancel",
+        "meeting",
+        "Follow-Ups",
+        "cancellation remark",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "21",
+    "text": "Question: Can managers reassign meetings to other users? Answer: Yes, from the Follow-Ups section, managers can select a meeting, tap 'Re-assign', choose a user, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "reassign",
+        "meeting",
+        "managers",
+        "Follow-Ups",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "22",
+    "text": "Question: How can I add day-wise expenses? Answer: Go to the 'Expenses' section, tap the '+' button, enter the expense details, and tap submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "day-wise",
+        "add",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "23",
+    "text": "Question: Can I view the status of my submitted expenses? Answer: Yes, users can filter and view approved or rejected expenses in the Expenses section.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "status",
+        "approved",
+        "rejected",
+        "filter"
+      ]
+    }
+  },
+  {
+    "id": "24",
+    "text": "Question: Who can approve or reject submitted expenses? Answer: Only Managers or Approvers can approve or reject expenses.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "approve",
+        "reject",
+        "Managers",
+        "Approvers"
+      ]
+    }
+  },
+  {
+    "id": "25",
+    "text": "Question: Can partial approvals be made for expenses? Answer: Yes, but only for individual expenses, not cumulative totals.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "partial approvals",
+        "individual expenses"
+      ]
+    }
+  },
+  {
+    "id": "26",
+    "text": "Question: What information is required to create a new client? Answer: To create a new client, you must fill in details such as Client Name, Contact Number, Email, Address, and optionally GST details.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "client",
+        "create",
+        "Client Name",
+        "Contact Number",
+        "Email",
+        "Address",
+        "GST"
+      ]
+    }
+  },
+  {
+    "id": "27",
+    "text": "Question: Can I add images or attachments while adding client or meeting details? Answer: Yes, the system supports uploading client images and meeting photos if required by your company.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "images",
+        "attachments",
+        "client",
+        "meeting",
+        "upload"
+      ]
+    }
+  },
+  {
+    "id": "28",
+    "text": "Question: Is GPS tracking mandatory for OD and meetings? Answer: Yes, GPS is used to calculate distance traveled and log actual meeting locations.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "GPS",
+        "tracking",
+        "Outdoor Duty",
+        "OD",
+        "meetings",
+        "distance"
+      ]
+    }
+  },
+  {
+    "id": "29",
+    "text": "Question: What should I do if GPS is turned off or unavailable during a meeting? Answer: You should enable GPS manually. If it remains unavailable, the app may not allow you to proceed.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "GPS",
+        "unavailable",
+        "Outdoor Duty",
+        "meeting",
+        "enable"
+      ]
+    }
+  },
+  {
+    "id": "30",
+    "text": "Question: What is the role of the Company Identifier during login? Answer: The Company Identifier links the user credentials to a specific organization and is mandatory for login.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "Company Identifier",
+        "login",
+        "credentials",
+        "organization"
+      ]
+    }
+  },
+  {
+    "id": "31",
+    "text": "Question: Can users see a summary of their OD activities? Answer: Yes, a summary or report of OD start and end times, along with meeting count and distance covered, is available.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "Outdoor Duty",
+        "OD",
+        "summary",
+        "report",
+        "meetings",
+        "distance"
+      ]
+    }
+  },
+  {
+    "id": "32",
+    "text": "Question: What types of filters are available in the Meetings section? Answer: Users can filter meetings by Date, Client, Status (Pending or Completed), and Meeting Type.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "filters",
+        "meetings",
+        "Date",
+        "Client",
+        "Status",
+        "Meeting Type"
+      ]
+    }
+  },
+  {
+    "id": "33",
+    "text": "Question: What is the use of 'Mark Without Meeting Info'? Answer: It allows field agents to quickly mark their location when client or meeting details aren't available on the spot.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "Mark Without Meeting Info",
+        "location",
+        "field agents",
+        "meetings"
+      ]
+    }
+  },
+  {
+    "id": "34",
+    "text": "Question: Can I edit a meeting after it has been submitted? Answer: No, once a meeting is submitted, it cannot be edited. You may request a manager to review or log a follow-up.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "edit",
+        "meeting",
+        "submitted",
+        "manager",
+        "follow-up"
+      ]
+    }
+  },
+  {
+    "id": "35",
+    "text": "Question: How are distance and travel expenses calculated in the SFA App? Answer: The app calculates distance using GPS tracking and links expenses to Outdoor Duty and meetings for accountability.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "distance",
+        "travel expenses",
+        "GPS",
+        "Outdoor Duty",
+        "meetings",
+        "accountability"
+      ]
+    }
+  },
+  {
+    "id": "36",
+    "text": "How to mark attendance in the SFA App? Answer: User can mark attendance while starting Outdoor Duty. If user is also using HRMS app and integrated with our SFA application",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Attendance",
+      "keywords": [
+        "attendance",
+        "HRMS",
+        "integration",
+        "Outdoor Duty"
+      ]
+    }
+  },
+  {
+    "id": "37",
+    "text": "Question: What is OD or Outdoor Duty? Answer: OD stands for Outdoor Duty. It refers to the period when a user is working outside the office, such as visiting clients or attending meetings. The SFA app tracks OD activities, including start and end times, routes, and meetings, using GPS for accurate reporting and expense calculation.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "OD",
+        "Outdoor Duty",
+        "client visits",
+        "meetings",
+        "tracking",
+        "GPS",
+        "reporting"
+      ]
+    }
+  },
+  {
+    "id": "38",
+    "text": "Question: What are the speech-to-text services available for creating meetings? Answer: There are two speech-to-text services for creating meetings: tap, and press and hold. They help fill the fields of the SFA automatically based on voice.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "speech-to-text",
+        "meetings",
+        "tap",
+        "press and hold",
+        "voice",
+        "fields"
+      ]
+    }
+  },
+  {
+    "id": "39",
+    "text": "Question: What are the features and capabilities of the SFA application? Answer: The SFA application helps sales teams manage activities like tracking client visits, scheduling meetings, recording expenses, and managing tasks. It streamlines the sales process, improves efficiency, allows users to create clients, manage meetings, log expenses, start outdoor duty, track routes with GPS, and view attendance records.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "Salesforce Automation",
+        "client visits",
+        "meetings",
+        "expenses",
+        "tasks",
+        "GPS",
+        "attendance",
+        "outdoor duty"
+      ]
+    }
+  },
+  {
+    "id": "40",
+    "text": "Question: What is SFA and how do I log in? Answer: SFA stands for Salesforce Automation, a tool for sales teams to manage activities like tracking visits, scheduling meetings, and recording expenses. To log in, users enter their credentials and the Company Identifier to access features like creating clients, managing meetings, and logging expenses.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "SFA",
+        "Salesforce Automation",
+        "login",
+        "credentials",
+        "Company Identifier",
+        "sales teams",
+        "meetings",
+        "expenses",
+        "client visits"
+      ]
+    }
+  },
+  {
+    "id": "41",
+    "text": "Question: What are the functionalities of the SFA application? Answer: The SFA application helps track client visits, schedule meetings, record expenses, and manage salesforce tasks digitally.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "client visits",
+        "meetings",
+        "expenses",
+        "salesforce",
+        "tasks"
+      ]
+    }
+  },
+  {
+    "id": "42",
+    "text": "Question: Can users filter expenses by approval status? Answer: Yes, users can filter and view approved or rejected expenses in the Expenses section.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "filter",
+        "approved",
+        "rejected",
+        "Expenses section"
+      ]
+    }
+  },
+  {
+    "id": "43",
+    "text": "Question: How do I add an expense or reimbursement? Answer: Go to the 'Expenses' section, tap the '+' button, enter the expense details, and tap submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "Expenses",
+        "expense details",
+        "submit",
+        "+ button"
+      ]
+    }
+  },
+  {
+    "id": "44",
+    "text": "Question: Can a submitted meeting be edited? Answer: No, once a meeting is submitted, it cannot be edited. You may request a manager to review or log a follow-up.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "meeting",
+        "submitted",
+        "edit",
+        "manager",
+        "review",
+        "follow-up"
+      ]
+    }
+  },
+  {
+    "id": "45",
+    "text": "Question: How do I create a new client? Answer: To create a new client, you must fill in details such as Client Name, Contact Number, Email, Address, and optionally GST details.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "client",
+        "Client Name",
+        "Contact Number",
+        "Email",
+        "Address",
+        "GST details",
+        "add new client",
+        "add new user"
+      ]
+    }
+  }
+]
