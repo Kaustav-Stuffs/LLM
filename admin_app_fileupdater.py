@@ -3,9 +3,43 @@ import json
 import os
 from fileupdater import convert_paragraph_to_json, FILE_PATH
 
+from dotenv import load_dotenv
+import ast
+
+# --- Load environment variables from .env if present ---
+load_dotenv()
+
+# --- Secure credential store using environment variable ---
+CREDENTIALS = {}
+admins_env = os.getenv("SFA_ADMINS")
+if admins_env:
+    try:
+        CREDENTIALS = ast.literal_eval(admins_env)
+    except Exception:
+        st.error("Error parsing admin credentials from environment variable.")
+
+def login():
+    st.title("SFA FAQ Admin Login")
+    username = st.text_input("Username")
+    password = st.text_input("Password", type="password")
+    login_btn = st.button("Login")
+    if login_btn:
+        if username in CREDENTIALS and CREDENTIALS[username] == password:
+            st.session_state["authenticated"] = True
+            st.session_state["username"] = username
+            st.success("Login successful!")
+            st.rerun()
+        else:
+            st.error("Invalid username or password.")
+
+if "authenticated" not in st.session_state or not st.session_state["authenticated"]:
+    login()
+    st.stop()
+
 st.title("SFA FAQ JSON Updater")
 
-st.write("""
+st.write(f"""
+Welcome, **{st.session_state['username']}**!  
 Enter a paragraph about the SFA application.  
 The app will extract Q&A, category, and keywords, and append it to the FAQ JSON file.
 You can edit the generated entry before saving, and manage your session entries before final update.
