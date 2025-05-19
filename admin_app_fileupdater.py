@@ -1,7 +1,7 @@
 import streamlit as st
 import json
 import os
-from fileupdater import convert_paragraph_to_json
+from fileupdater import convert_paragraph_to_json, FILE_PATH
 
 st.title("SFA FAQ JSON Updater")
 
@@ -55,7 +55,7 @@ if st.session_state.session_entries:
     if st.button("Save All Session Entries to doc1.json"):
         try:
             # Load existing data
-            file_path = "/home/kaustav/AIML/NLP/data/doc1.json"
+            file_path = FILE_PATH
             with open(file_path, "r") as f:
                 data = json.load(f)
             # Append session entries
@@ -71,7 +71,7 @@ if st.session_state.session_entries:
 # --- Edit/Delete Existing Entries in doc1.json ---
 st.header("Edit or Delete Existing Entries in doc1.json")
 
-file_path = "/home/kaustav/AIML/NLP/data/doc1.json"
+file_path = FILE_PATH
 if os.path.exists(file_path):
     with open(file_path, "r") as f:
         try:

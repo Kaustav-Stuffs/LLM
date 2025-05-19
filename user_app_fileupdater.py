@@ -1,6 +1,6 @@
 import streamlit as st
 import json
-from fileupdater import convert_paragraph_to_json
+from fileupdater import convert_paragraph_to_json, FILE_PATH
 
 st.title("SFA FAQ JSON Updater")
 
