@@ -80,7 +80,7 @@ def process_query(
             answer = "Sorry, something went wrong while generating the answer."
         logger.debug(f"\nGemini response: {answer}")
     
-    elif model_choice == "qwen":
+    elif model_choice == "llama":
         # Query Qwen2.5 API
         try:
             qwen_response = qwen_model.invoke(prompt)

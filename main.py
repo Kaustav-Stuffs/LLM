@@ -4,10 +4,11 @@ from typing import List
 import os
 import json
 import csv
-import fitz  
 import google.generativeai as genai
 import uvicorn
 import logging
+
+
 from webcamaccess import *  
 from langchain_ollama import ChatOllama
 
@@ -39,7 +40,7 @@ app = FastAPI()
 class QueryRequest(BaseModel):
     question: str
     userId: int
-    model_choice: str = "qwen"  # CHOOSE BETWEEN "gemini" OR "qwen"
+    model_choice: str = "llama"  # CHOOSE BETWEEN "gemini" OR "llama"
 
 class QueryResponse(BaseModel):
     question: str
@@ -69,12 +70,12 @@ def extract_context_from_files(file_paths: List[str]) -> str:
                     reader = csv.reader(f)
                     context_parts.append("\n".join([", ".join(row) for row in reader]))
 
-            elif path.endswith(".pdf"):
-                doc = fitz.open(path)
-                text = ""
-                for page in doc:
-                    text += page.get_text()
-                context_parts.append(text)
+            # elif path.endswith(".pdf"):
+            #     doc = fitz.open(path)
+            #     text = ""
+            #     for page in doc:
+            #         text += page.get_text()
+            #     context_parts.append(text)
         except Exception as e:
             logger.error(f"Error reading file {path}: {str(e)}")
 
@@ -93,6 +94,8 @@ CONTEXT = extract_context_from_files(DOCUMENT_PATHS)
 # ----------------------------
 @app.post("/customerSupport", response_model=QueryResponse)
 async def customer_support(query: QueryRequest):
+    import time
+    start_time = time.time()
     logger.debug(f"Received request from user {query.userId} with question: {query.question}, model_choice: {query.model_choice}")
 
     # Process query using webcamaccess.py
@@ -103,7 +106,8 @@ async def customer_support(query: QueryRequest):
         gemini_model=gemini_model,
         qwen_model=qwen_model
     )
-    
+    response_time = time.time() - start_time
+    logger.debug(f"Response time: {response_time:.2f} seconds")
     return QueryResponse(
         question=query.question,
         userId=query.userId,

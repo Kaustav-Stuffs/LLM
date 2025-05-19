@@ -198,8 +198,9 @@ def convert_paragraph_to_json(paragraph, json_file_path=FILE_PATH):
 if __name__ == "__main__":
     # Sample paragraph
     sample_paragraph = """
-        There are two kinds of speech-to-text services, for creating meeting, one is tap, another one is press and hold. It will help filling the fields of the SFA automatically based on the voice.
-          The first one is tap, which is used to create a meeting. The second one is press and hold, which is used to fill the fields of the SFA automatically based on the voice.
+        SFA stands for Salesforce Automation. It is a digital tool that helps sales teams manage their activities, including tracking client visits, scheduling meetings, recording expenses, and managing tasks. The SFA application is designed to streamline the sales process and improve efficiency.
+        To log in to the SFA application, users need to enter their credentials and the Company Identifier. Once logged in, they can access various features such as creating new clients, managing meetings, and logging expenses.
+        
           """
     
     try:
