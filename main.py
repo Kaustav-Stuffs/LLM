@@ -7,8 +7,6 @@ import csv
 import google.generativeai as genai
 import uvicorn
 import logging
-
-
 from webcamaccess import *  
 from langchain_ollama import ChatOllama
 
@@ -86,7 +84,7 @@ def extract_context_from_files(file_paths: List[str]) -> str:
 # ----------------------------
 # Load Document(s)
 # ----------------------------
-DOCUMENT_PATHS = ["/home/kaustav/AIML/NLP/data/doc1.json"]
+DOCUMENT_PATHS = ["./doc1.json"]
 CONTEXT = extract_context_from_files(DOCUMENT_PATHS)
 
 # ----------------------------
