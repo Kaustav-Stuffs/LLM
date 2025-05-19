@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1",
+    "text": "Question: What are the speech-to-text services for creating meetings? Answer: There are two speech-to-text services for creating meetings: tap and press and hold. They automatically fill fields in the SFA based on voice input.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "speech-to-text",
+        "meetings",
+        "tap",
+        "press and hold",
+        "SFA",
+        "voice input",
+        "fields"
+      ]
+    }
+  }
+]

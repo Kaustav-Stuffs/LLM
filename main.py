@@ -26,7 +26,7 @@ gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 # ----------------------------
 # Qwen2.5 Setup
 # ----------------------------
-qwen_model = ChatOllama(model="qwen2.5:1.5b", temperature=0.1, max_tokens=128)
+qwen_model = ChatOllama(model="llama3.2:3b", temperature=0.1, max_tokens=128)
 
 # ----------------------------
 # FastAPI app
@@ -85,7 +85,7 @@ def extract_context_from_files(file_paths: List[str]) -> str:
 # ----------------------------
 # Load Document(s)
 # ----------------------------
-DOCUMENT_PATHS = ["/home/kaustav/AIML/NLP/data/doc1.txt"]
+DOCUMENT_PATHS = ["/home/kaustav/AIML/NLP/data/doc1.json"]
 CONTEXT = extract_context_from_files(DOCUMENT_PATHS)
 
 # ----------------------------

@@ -13,6 +13,7 @@ dependencies = [
     "langchain-community>=0.3.24",
     "langchain-huggingface>=0.2.0",
     "langchain-ollama>=0.3.2",
+    "nltk>=3.9.1",
     "pandas>=2.2.3",
     "pydantic>=2.11.4",
     "pymupdf>=1.25.5",

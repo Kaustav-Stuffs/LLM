@@ -132,7 +132,7 @@ class HybridSearchRAG:
 
 
 # Load documents and initialize the search engine
-documents_file = "/home/kaustav/AIML/NLP/data/doc1.txt"
+documents_file = "/home/kaustav/AIML/NLP/data/doc1.json"
 try:
     with open(documents_file, 'r', encoding='utf-8') as f:
         documents = json.load(f)

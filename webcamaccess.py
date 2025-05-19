@@ -34,7 +34,7 @@ def process_query(
         results = search_engine.query_search(query, min_relevance_score=min_relevance_score)
         logger.debug(f"\nSearch results: \n\n{results}")
         for idx, result in enumerate(results):
-            logger.debug(f"\nResult {idx+1}: \n\nScore={result.get('relevance_score')}, Text={result.get('text')[:]}.\n")
+            logger.debug(f"\nResult {idx+1}: \n\n[Score={result.get('relevance_score')}], Text={result.get('text')[:]}.\n")
     except Exception as e:
         logger.error(f"Error performing search: {e}")
         return {
@@ -54,6 +54,7 @@ def process_query(
         "You are a professional and polite customer support assistant.\n"
         "Answer the user's question strictly using ONLY the information provided in the Document Context below.\n"
         "Do NOT use any external knowledge or information that is not present in the Document Context.\n"
+        "If the provided context is relevant or if you will find the answer inside the context like if there is no full form availale in context than not provide any.\n"
         "If the answer cannot be found in the Document Context, reply with:\n"
         "\"I am not sure about that question. You can ask me another question.\"\n"
         "If the question is unclear or unrelated to the Document Context, reply with:\n"
@@ -61,7 +62,11 @@ def process_query(
         f"Document Context:\n{combined_context}\n\n"
         f"User Question: {query}"
     )
-    
+    # prompt = (
+    #     f"Use only the following context to answer the question.\n"
+    #     f"If the question is not answerable from this context, say 'I don't have enough information to answer that.'\n"
+    #     f"\nContext:\n{combined_context}\n\nQuestion: {query}"
+    # )
     # logger.debug(f"Prompt sent to model:\n{prompt}")
     
     # Process based on model choice
@@ -73,7 +78,7 @@ def process_query(
         except Exception as e:
             logger.error(f"Error generating content from Gemini: {e}")
             answer = "Sorry, something went wrong while generating the answer."
-        logger.debug(f"Gemini response: {answer}")
+        logger.debug(f"\nGemini response: {answer}")
     
     elif model_choice == "qwen":
         # Query Qwen2.5 API
@@ -88,7 +93,7 @@ def process_query(
         except Exception as e:
             logger.error(f"Error generating content from Qwen2.5: {e}")
             answer = "Sorry, something went wrong while generating the answer."
-        logger.debug(f"Qwen2.5 response:\n {answer}")
+        logger.debug(f"\nQwen2.5 response:\n {answer}")
     
     else:
         logger.error(f"Invalid model_choice: {model_choice}")
