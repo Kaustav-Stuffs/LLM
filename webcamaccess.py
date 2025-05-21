@@ -44,7 +44,7 @@ def process_query(
         }
 
     # Extract context from documents (same as main.py)
-    context = extract_context_from_files(DOCUMENT_PATHS)
+    #context = extract_context_from_files(DOCUMENT_PATHS)
     
     # Use only the search results as context for the model
     combined_context = "\n".join([result['text'] for result in results])
@@ -52,6 +52,7 @@ def process_query(
     # Prepare prompt for the model
     prompt = (
         "You are a professional and polite customer support assistant.\n"
+        "If the user greets you, response with a greeting too.\n"
         "Answer the user's question strictly using ONLY the information provided in the Document Context below.\n"
         "Do NOT use any external knowledge or information that is not present in the Document Context.\n"
         "If the provided context is relevant or if you will find the answer inside the context like if there is no full form availale in context than not provide any.\n"
@@ -62,6 +63,7 @@ def process_query(
         f"Document Context:\n{combined_context}\n\n"
         f"User Question: {query}"
     )
+    print(f"\033[1;31mCombined context:\n\n{combined_context}\033[0m")    
     # prompt = (
     #     f"Use only the following context to answer the question.\n"
     #     f"If the question is not answerable from this context, say 'I don't have enough information to answer that.'\n"

@@ -13,14 +13,13 @@ def call_gemini_api(paragraph, api_key):
         "Content-Type": "application/json"
     }
     
-    # Enhanced prompt for smart category and keyword selection
+        # Enhanced prompt for splitting long summaries into multiple entries
     prompt = f"""
-    You are an expert at processing text and generating structured JSON output for the SFA (Salesforce Automation) application FAQs. Given the following paragraph, extract and format the information to match the JSON schema below. Your task is to intelligently select the `category` and `keywords` based on the paragraph's content, using context from existing FAQs.
+    You are an expert at processing text and generating structured JSON output for the SFA (Salesforce Automation) application FAQs. Given the following paragraph or summary, your task is to intelligently split the content into multiple FAQ-style entries if it contains information about more than one topic, question, or answer. Each entry should match the JSON schema below and focus on a single question and answer pair.
 
     **JSON Schema Example**:
     ```json
     {{
-        "id": "1",
         "text": "Question: What is the purpose of the SFA application? Answer: The SFA application helps track client visits, schedule meetings, record expenses, and manage salesforce tasks digitally.",
         "metadata": {{
             "source": "sfa_faq",
@@ -40,59 +39,44 @@ def call_gemini_api(paragraph, api_key):
     - Follow-Ups: Follow-up meeting actions (e.g., "How to reschedule a meeting?").
     - Attendance: Attendance tracking (e.g., "How to mark attendance?").
 
+    **Instructions**:
+    1. **Split the Input**: If the paragraph contains information about multiple topics, questions, or answers, split it into separate entries. Each entry should focus on a single question and answer pair.
+    2. **Extract Question and Answer**: For each entry, identify the question and answer. If not explicitly labeled, infer them from the content.
+    3. **Select Category**: Choose the most relevant category for each entry from the list above.
+    4. **Generate Keywords**: Extract 3–10 keywords for each entry that capture its core concepts.
+    5. **Set Source**: Always set `source` to "sfa_faq".
+    6. **Output**: Return a JSON array (list) of objects, each matching the schema above (without the `id` field). Do NOT merge multiple topics into one entry.
+
+    **Example Input**:
+    "SFA stands for Salesforce Automation. It is a digital tool that helps sales teams manage their activities, including tracking client visits, scheduling meetings, recording expenses, and managing tasks. To log in to the SFA application, users need to enter their credentials and the Company Identifier."
+
+    **Example Output**:
+    ```json
+    [
+      {{
+        "text": "Question: What is the purpose of the SFA application? Answer: The SFA application helps sales teams manage activities such as tracking client visits, scheduling meetings, recording expenses, and managing tasks.",
+        "metadata": {{
+          "source": "sfa_faq",
+          "category": "Overview",
+          "keywords": ["SFA", "purpose", "salesforce", "tracking", "meetings", "expenses", "tasks"]
+        }}
+      }},
+      {{
+        "text": "Question: How do I log in to the SFA application? Answer: Enter your credentials and the Company Identifier to log in.",
+        "metadata": {{
+          "source": "sfa_faq",
+          "category": "Login",
+          "keywords": ["login", "credentials", "Company Identifier", "SFA"]
+        }}
+      }}
+    ]
+    ```
+
     **Input Paragraph**:
     {paragraph}
 
-    **Instructions**:
-    1. **Extract Question and Answer**:
-       - Identify the question and answer. If not explicitly labeled, infer them from the content (e.g., first sentence as question, rest as answer).
-       - Format the `text` field as "Question: <question> Answer: <answer>".
-       - Ensure the question is concise and the answer is clear, matching the style of the example.
-
-    2. **Select Category**:
-       - Analyze the paragraph's content to choose the most relevant category from the list above.
-       - Use key indicators:
-         - GPS, routes, Toggle Button, OD → Outdoor Duty
-         - Meetings, follow-ups, scheduling → Meetings or Follow-Ups
-         - Expenses, approvals → Expenses
-         - Clients, leads, branches → Clients/Leads
-         - Login, credentials, Company Identifier → Login
-         - Attendance, HRMS → Attendance
-         - General app description → Overview
-       - If ambiguous, default to "Overview".
-       - Example: A paragraph about GPS tracking for client visits should select "Outdoor Duty".
-
-    3. **Generate Keywords**:
-       - Extract 3–10 keywords that capture the paragraph's core concepts.
-       - Prioritize specific terms from the SFA app (e.g., "Outdoor Duty", "Toggle Button", "Company Identifier") and avoid generic words (e.g., "app", "use").
-       - Ensure keywords are consistent with existing FAQs (e.g., use "meeting" or "meetings" consistently, prefer "Outdoor Duty" over "OD").
-       - Example: For a paragraph about starting Outdoor Duty, keywords might include ["Outdoor Duty", "Toggle Button", "GPS", "Dashboard"].
-       - Match the style of the example keywords (lowercase, descriptive).
-
-    4. **Set Source**:
-       - Always set `source` to "sfa_faq".
-
-    5. **Output**:
-       - Return only the JSON object with `text` and `metadata` fields, formatted as a valid JSON string.
-       - Do NOT generate the `id` field; it will be handled separately.
-       - Ensure the JSON is valid and matches the schema.
-
-    **Example Input and Output**:
-    - **Input**: "How can I start my Outdoor Duty in the SFA app? To start, tap the Toggle Button on the Dashboard. GPS will track your route."
-    - **Output**:
-      ```json
-      {{
-        "text": "Question: How can I start my Outdoor Duty in the SFA app? Answer: To start, tap the Toggle Button on the Dashboard. GPS will track your route.",
-        "metadata": {{
-          "source": "sfa_faq",
-          "category": "Outdoor Duty",
-          "keywords": ["Outdoor Duty", "Toggle Button", "GPS", "Dashboard", "route"]
-        }}
-      }}
-      ```
-
     **Output**:
-    Return a JSON string matching the schema (without the `id` field).
+    Return a JSON array (list) of objects, each matching the schema above (without the `id` field).
     """
     
     payload = {
@@ -106,15 +90,14 @@ def call_gemini_api(paragraph, api_key):
         response.raise_for_status()
         response_data = response.json()
         # Extract the generated content from the response
-        generated_text = response_data.get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "{}")
+        generated_text = response_data.get("candidates", [{}])[0].get("content", {}).get("parts", [{}])[0].get("text", "[]")
         return generated_text
     except requests.RequestException as e:
         print(f"Error calling Gemini API: {e}")
-        return "{}"
+        return "[]"
 
 # Function to convert paragraph and append to doc1.json
 def convert_paragraph_to_json(paragraph, json_file_path=FILE_PATH):
-    # Get API key from environment variable
     api_key = "AIzaSyDxYogQnjYmTbvghsqSWCKtot5DpygC8hA"
     if not api_key:
         raise ValueError("GEMINI_API_KEY environment variable not set")
@@ -135,23 +118,22 @@ def convert_paragraph_to_json(paragraph, json_file_path=FILE_PATH):
     # Determine the next ID
     if json_data:
         last_id = max(int(item["id"]) for item in json_data)
-        new_id = str(last_id + 1)
     else:
-        new_id = "1"
+        last_id = 0
     
     # Call Gemini API to process the paragraph
     gemini_response = call_gemini_api(paragraph, api_key)
 
     def extract_json_from_response(response_text):
-        # Try to extract JSON from code block or plain text
-        # 1. Look for triple backtick code block with json
-        code_block_match = re.search(r"```(?:json)?\s*({.*?})\s*```", response_text, re.DOTALL)
+        # Try to extract JSON array from code block or plain text
+        # 1. Look for triple backtick code block with json array
+        code_block_match = re.search(r"```(?:json)?\s*(\[[\s\S]*?\])\s*```", response_text)
         if code_block_match:
             return code_block_match.group(1)
-        # 2. Look for first JSON object in the text
-        brace_match = re.search(r"({.*})", response_text, re.DOTALL)
-        if brace_match:
-            return brace_match.group(1)
+        # 2. Look for first JSON array in the text
+        array_match = re.search(r"(\[[\s\S]*\])", response_text)
+        if array_match:
+            return array_match.group(1)
         # 3. Fallback: return as is
         return response_text
 
@@ -159,40 +141,44 @@ def convert_paragraph_to_json(paragraph, json_file_path=FILE_PATH):
         # Extract JSON string from Gemini response
         json_str = extract_json_from_response(gemini_response)
         parsed_response = json.loads(json_str)
+        if isinstance(parsed_response, dict):
+            parsed_response = [parsed_response]  # Make it a list for consistency
     except Exception:
         print("Error: Gemini API did not return valid JSON")
-        parsed_response = {
+        parsed_response = [{
             "text": f"Question: Unknown Answer: Unable to process paragraph",
             "metadata": {
                 "source": "sfa_faq",
                 "category": "Overview",
                 "keywords": ["error", "unknown"]
             }
+        }]
+    
+    # Construct new JSON objects with unique IDs
+    new_entries = []
+    for entry in parsed_response:
+        last_id += 1
+        new_entry = {
+            "id": str(last_id),
+            "text": entry.get("text", "Question: Unknown Answer: Unable to process paragraph"),
+            "metadata": entry.get("metadata", {
+                "source": "sfa_faq",
+                "category": "Overview",
+                "keywords": ["error", "unknown"]
+            })
         }
-    
-    # Construct the new JSON object
-    new_entry = {
-        "id": new_id,
-        "text": parsed_response.get("text", "Question: Unknown Answer: Unable to process paragraph"),
-        "metadata": parsed_response.get("metadata", {
-            "source": "sfa_faq",
-            "category": "Overview",
-            "keywords": ["error", "unknown"]
-        })
-    }
-    
-    # Append the new entry to the JSON data
-    json_data.append(new_entry)
+        json_data.append(new_entry)
+        new_entries.append(new_entry)
     
     # Write the updated JSON back to the file
     try:
         with open(json_file_path, "w") as f:
             json.dump(json_data, f, indent=2)
-        print(f"Successfully appended new entry to {json_file_path}")
+        print(f"Successfully appended {len(new_entries)} new entr{'y' if len(new_entries)==1 else 'ies'} to {json_file_path}")
     except Exception as e:
         print(f"Error writing to {json_file_path}: {e}")
     
-    return new_entry
+    return new_entries
 
 # Example usage
 if __name__ == "__main__":

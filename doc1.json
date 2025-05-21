@@ -643,7 +643,7 @@
   },
   {
     "id": "43",
-    "text": "Question: How do I add an expense or reimbursement? Answer: Go to the 'Expenses' section, tap the '+' button, enter the expense details, and tap submit.",
+    "text": "Question: How do I set or add an expense or reimbursement? Answer: Go to the 'Expenses' section, tap the '+' button, enter the expense details, and tap submit.",
     "metadata": {
       "source": "sfa_faq",
       "category": "Expenses",
@@ -686,6 +686,85 @@
         "GST details",
         "add new client",
         "add new user"
+      ]
+    }
+  },
+  {
+    "id": "46",
+    "text": "Question: How do I cancel a meeting follow-up? Answer: Go to follow up. Select a meeting, tap 'Cancel', provide cancellation remark and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "follow up",
+        "meeting",
+        "cancel",
+        "cancellation remark",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "47",
+    "text": "Question: What does SFA stand for and what is it used for? Answer: SFA stands for Sales Force Automation. It is used for tracking details of the users, when they are on Outdoor Duty, and even in meetings.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "Sales Force Automation",
+        "users",
+        "Outdoor Duty",
+        "meetings",
+        "tracking"
+      ]
+    }
+  },
+  {
+    "id": "48",
+    "text": "Question: What is a unique feature of SFA related to route creation? Answer: SFA can extract the exact route using Google APIs for route creation.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "SFA",
+        "route creation",
+        "Google APIs",
+        "route extraction",
+        "GPS"
+      ]
+    }
+  },
+  {
+    "id": "49",
+    "text": "Question: Can SFA's meeting and client pages be customized? Answer: Yes, the meeting and client page forms in SFA are dynamic, allowing users to change labels and names according to their requirements.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "SFA",
+        "dynamic forms",
+        "meeting page",
+        "client page",
+        "customization",
+        "labels",
+        "names"
+      ]
+    }
+  },
+  {
+    "id": "50",
+    "text": "Question: When will added expenses be settled to the user's account? Answer: Added expenses are usually settled within the same month, but may take up to one month if the amount exceeds 10,000.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "settlement",
+        "account",
+        "payment",
+        "amount",
+        "delay"
       ]
     }
   }

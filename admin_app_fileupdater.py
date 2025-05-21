@@ -56,8 +56,10 @@ if st.button("Generate JSON Entry"):
         with st.spinner("Processing..."):
             try:
                 result = convert_paragraph_to_json(paragraph)
-                # Add to session entries for editing/deleting before final save
-                st.session_state.session_entries.append(result)
+                if isinstance(result, list):
+                    st.session_state.session_entries.extend(result)
+                else:
+                    st.session_state.session_entries.append(result)
                 st.success("Entry generated and added to session!")
             except Exception as e:
                 st.error(f"Error: {e}")

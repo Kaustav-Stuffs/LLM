@@ -26,7 +26,7 @@ gemini_model = genai.GenerativeModel("gemini-2.0-flash")
 # Qwen2.5 Setup
 # ----------------------------
 qwen_model = ChatOllama(model="llama3.2:3b", temperature=0.1, max_tokens=128)
-
+print(f"Qwen2.5 model loaded: {qwen_model}")
 # ----------------------------
 # FastAPI app
 # ----------------------------
