@@ -1,0 +1,3232 @@
+[
+  {
+    "id": "1",
+    "text": "Question: What is the purpose of the SFA application? Answer: The SFA application helps track client visits, schedule meetings, record expenses, and manage salesforce tasks digitally.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "purpose",
+        "salesforce",
+        "track",
+        "meetings",
+        "expenses",
+        "client visits"
+      ]
+    }
+  },
+  {
+    "id": "2",
+    "text": "Question: How can I log in to the SFA application as a user? Answer: You need your Employee ID, Password, and Company Identifier to log in. Then tap the 'Login' button.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "login",
+        "user",
+        "Employee ID",
+        "Password",
+        "Company Identifier"
+      ]
+    }
+  },
+  {
+    "id": "3",
+    "text": "Question: Can an Admin or Manager log in with the same credentials format as a user? Answer: Yes, Admins and Managers also log in using their Employee ID, Password, and Company Identifier.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "login",
+        "Admin",
+        "Manager",
+        "credentials",
+        "Employee ID",
+        "Password",
+        "Company Identifier"
+      ]
+    }
+  },
+  {
+    "id": "4",
+    "text": "Question: How do I start or stop my Outdoor Duty (OD)? Answer: Tap the 'Toggle Button' on the Dashboard to start or stop Outdoor Duty.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "Outdoor Duty",
+        "OD",
+        "start",
+        "stop",
+        "Toggle Button",
+        "Dashboard"
+      ]
+    }
+  },
+  {
+    "id": "5",
+    "text": "Question: Why is it important to create a meeting for every client visit? Answer: Creating meetings logs your visit and helps calculate travel distance, which is essential for tracking and reporting.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "meeting",
+        "client visit",
+        "travel distance",
+        "tracking",
+        "reporting"
+      ]
+    }
+  },
+  {
+    "id": "6",
+    "text": "Question: How can I create a meeting for an existing client? Answer: Tap 'Meeting', press the '+' button, select 'Existing Client', choose the client, and enter meeting details after the meeting ends.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "meeting",
+        "existing client",
+        "create",
+        "meeting details"
+      ]
+    }
+  },
+  {
+    "id": "7",
+    "text": "Question: How can I create / mark meeting for a new client? Answer: Tap 'Meeting', press the '+' button, select 'New Client', fill in client details, save, and then submit the meeting details.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "meeting",
+        "new client",
+        "create",
+        "client details",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "8",
+    "text": "Question: What does 'Mark Meeting Without Info' mean? Answer: It allows you to mark a meeting at a location without filling client or meeting details. Default info is saved automatically.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "Mark Meeting Without Info",
+        "meeting",
+        "location",
+        "default info"
+      ]
+    }
+  },
+  {
+    "id": "9",
+    "text": "Question: Can I schedule a follow-up meeting while creating the current meeting? Answer: Yes, follow-ups can be scheduled during the meeting entry process.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "follow-up",
+        "meeting",
+        "schedule",
+        "meeting entry"
+      ]
+    }
+  },
+  {
+    "id": "10",
+    "text": "Question: How can I add meeting-wise expenses? Answer: Go to the Meeting list, select a meeting, tap 'Add Expense', fill in details, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "meeting",
+        "add expense",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "11",
+    "text": "Question: Is it possible to view the route taken during OD meetings? Answer: Yes, each meeting includes a 'Route' option that lets you view your OD path using a map.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "route",
+        "Outdoor Duty",
+        "OD",
+        "meetings",
+        "map"
+      ]
+    }
+  },
+  {
+    "id": "12",
+    "text": "Question: How do I create a new lead or client in the system? Answer: Go to 'Leads/Clients', tap the '+' button, fill in the required fields, and tap 'Add Lead/Client'.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "lead",
+        "client",
+        "create",
+        "add",
+        "Leads/Clients"
+      ]
+    }
+  },
+  {
+    "id": "13",
+    "text": "Question: How can I update an existing lead or client? Answer: Select a lead or client, tap 'Edit' on the top right, modify details, and tap 'Update'.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "lead",
+        "client",
+        "update",
+        "edit"
+      ]
+    }
+  },
+  {
+    "id": "14",
+    "text": "Question: Can I add branches to an existing client? Answer: Yes, use the 'Branch' option while editing a client to add branches.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "client",
+        "branches",
+        "add",
+        "edit"
+      ]
+    }
+  },
+  {
+    "id": "15",
+    "text": "Question: How can I schedule a future meeting? Answer: From the Leads/Clients list, choose the client, tap 'Schedule Meeting', enter details, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "schedule",
+        "meeting",
+        "future",
+        "Leads/Clients",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "16",
+    "text": "Question: Can an Admin or Manager schedule meetings for other users? Answer: Yes, Admins and Managers get a dropdown to assign meetings to users.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "Admin",
+        "Manager",
+        "schedule",
+        "meetings",
+        "assign",
+        "users"
+      ]
+    }
+  },
+  {
+    "id": "17",
+    "text": "Question: What is the Follow-Ups section used for? Answer: It allows users to view, reschedule, cancel, or reassign previously scheduled follow-up meetings.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "Follow-Ups",
+        "view",
+        "reschedule",
+        "cancel",
+        "reassign",
+        "meetings"
+      ]
+    }
+  },
+  {
+    "id": "18",
+    "text": "Question: Under what conditions can a meeting be rescheduled? Answer: Only if the assigned user hasn't started OD and the meeting time hasn't started.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "reschedule",
+        "meeting",
+        "Outdoor Duty",
+        "OD",
+        "conditions"
+      ]
+    }
+  },
+  {
+    "id": "19",
+    "text": "Question: How can I reschedule a meeting? Answer: Go to Follow-Ups, select a meeting, tap 'Reschedule', fill in the details, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "reschedule",
+        "meeting",
+        "Follow-Ups",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "20",
+    "text": "Question: How can I cancel a scheduled meeting? Answer: Go to Follow-Ups, select the meeting, tap 'Cancel', provide a cancellation remark, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "cancel",
+        "meeting",
+        "Follow-Ups",
+        "cancellation remark",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "21",
+    "text": "Question: Can managers reassign meetings to other users? Answer: Yes, from the Follow-Ups section, managers can select a meeting, tap 'Re-assign', choose a user, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "reassign",
+        "meeting",
+        "managers",
+        "Follow-Ups",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "22",
+    "text": "Question: How can I add day-wise expenses? Answer: Go to the 'Expenses' section, tap the '+' button, enter the expense details, and tap submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "day-wise",
+        "add",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "23",
+    "text": "Question: Can I view the status of my submitted expenses? Answer: Yes, users can filter and view approved or rejected expenses in the Expenses section.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "status",
+        "approved",
+        "rejected",
+        "filter"
+      ]
+    }
+  },
+  {
+    "id": "24",
+    "text": "Question: Who can approve or reject submitted expenses? Answer: Only Managers or Approvers can approve or reject expenses.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "approve",
+        "reject",
+        "Managers",
+        "Approvers"
+      ]
+    }
+  },
+  {
+    "id": "25",
+    "text": "Question: Can partial approvals be made for expenses? Answer: Yes, but only for individual expenses, not cumulative totals.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "partial approvals",
+        "individual expenses"
+      ]
+    }
+  },
+  {
+    "id": "26",
+    "text": "Question: What information is required to create a new client? Answer: To create a new client, you must fill in details such as Client Name, Contact Number, Email, Address, and optionally GST details.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "client",
+        "create",
+        "Client Name",
+        "Contact Number",
+        "Email",
+        "Address",
+        "GST"
+      ]
+    }
+  },
+  {
+    "id": "27",
+    "text": "Question: Can I add images or attachments while adding client or meeting details? Answer: Yes, the system supports uploading client images and meeting photos if required by your company.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "images",
+        "attachments",
+        "client",
+        "meeting",
+        "upload"
+      ]
+    }
+  },
+  {
+    "id": "28",
+    "text": "Question: Is GPS tracking mandatory for OD and meetings? Answer: Yes, GPS is used to calculate distance traveled and log actual meeting locations.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "GPS",
+        "tracking",
+        "Outdoor Duty",
+        "OD",
+        "meetings",
+        "distance"
+      ]
+    }
+  },
+  {
+    "id": "29",
+    "text": "Question: What should I do if GPS is turned off or unavailable during a meeting? Answer: You should enable GPS manually. If it remains unavailable, the app may not allow you to proceed.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "GPS",
+        "unavailable",
+        "Outdoor Duty",
+        "meeting",
+        "enable"
+      ]
+    }
+  },
+  {
+    "id": "30",
+    "text": "Question: What is the role of the Company Identifier during login? Answer: The Company Identifier links the user credentials to a specific organization and is mandatory for login.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "Company Identifier",
+        "login",
+        "credentials",
+        "organization"
+      ]
+    }
+  },
+  {
+    "id": "31",
+    "text": "Question: Can users see a summary of their OD activities? Answer: Yes, a summary or report of OD start and end times, along with meeting count and distance covered, is available.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "Outdoor Duty",
+        "OD",
+        "summary",
+        "report",
+        "meetings",
+        "distance"
+      ]
+    }
+  },
+  {
+    "id": "32",
+    "text": "Question: What types of filters are available in the Meetings section? Answer: Users can filter meetings by Date, Client, Status (Pending or Completed), and Meeting Type.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "filters",
+        "meetings",
+        "Date",
+        "Client",
+        "Status",
+        "Meeting Type"
+      ]
+    }
+  },
+  {
+    "id": "33",
+    "text": "Question: What is the use of 'Mark Without Meeting Info'? Answer: It allows field agents to quickly mark their location when client or meeting details aren't available on the spot.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "Mark Without Meeting Info",
+        "location",
+        "field agents",
+        "meetings"
+      ]
+    }
+  },
+  {
+    "id": "34",
+    "text": "Question: Can I edit a meeting after it has been submitted? Answer: No, once a meeting is submitted, it cannot be edited. You may request a manager to review or log a follow-up.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "edit",
+        "meeting",
+        "submitted",
+        "manager",
+        "follow-up"
+      ]
+    }
+  },
+  {
+    "id": "35",
+    "text": "Question: How are distance and travel expenses calculated in the SFA App? Answer: The app calculates distance using GPS tracking and links expenses to Outdoor Duty and meetings for accountability.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "distance",
+        "travel expenses",
+        "GPS",
+        "Outdoor Duty",
+        "meetings",
+        "accountability"
+      ]
+    }
+  },
+  {
+    "id": "36",
+    "text": "How to mark attendance in the SFA App? Answer: User can mark attendance while starting Outdoor Duty (OD). If user is also using HRMS app and integrated with our SFA application",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Attendance",
+      "keywords": [
+        "attendance",
+        "HRMS",
+        "integration",
+        "Outdoor Duty"
+      ]
+    }
+  },
+  {
+    "id": "37",
+    "text": "Question: What is OD or Outdoor Duty? Answer: OD stands for Outdoor Duty. It refers to the period when a user is working outside the office, such as visiting clients or attending meetings. The SFA app tracks OD activities, including start and end times, routes, and meetings, using GPS for accurate reporting and expense calculation.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "OD",
+        "Outdoor Duty",
+        "client visits",
+        "meetings",
+        "tracking",
+        "GPS",
+        "reporting"
+      ]
+    }
+  },
+  {
+    "id": "38",
+    "text": "Question: What are the speech-to-text services available for creating meetings? Answer: There are two speech-to-text services for creating meetings: tap, and press and hold. They help fill the fields of the SFA automatically based on voice.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "speech-to-text",
+        "meetings",
+        "tap",
+        "press and hold",
+        "voice",
+        "fields"
+      ]
+    }
+  },
+  {
+    "id": "39",
+    "text": "Question: What are the features and capabilities of the SFA application? Answer: The SFA application helps sales teams manage activities like tracking client visits, scheduling meetings, recording expenses, and managing tasks. It streamlines the sales process, improves efficiency, allows users to create clients, manage meetings, log expenses, start outdoor duty, track routes with GPS, and view attendance records.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "Salesforce Automation",
+        "client visits",
+        "meetings",
+        "expenses",
+        "tasks",
+        "GPS",
+        "attendance",
+        "outdoor duty"
+      ]
+    }
+  },
+  {
+    "id": "40",
+    "text": "Question: What is SFA and how do I log in? Answer: SFA stands for Salesforce Automation, a tool for sales teams to manage activities like tracking visits, scheduling meetings, and recording expenses. To log in, users enter their credentials and the Company Identifier to access features like creating clients, managing meetings, and logging expenses.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "SFA",
+        "Salesforce Automation",
+        "login",
+        "credentials",
+        "Company Identifier",
+        "sales teams",
+        "meetings",
+        "expenses",
+        "client visits"
+      ]
+    }
+  },
+  {
+    "id": "41",
+    "text": "Question: What are the functionalities of the SFA application? Answer: The SFA application helps track client visits, schedule meetings, record expenses, and manage salesforce tasks digitally.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "client visits",
+        "meetings",
+        "expenses",
+        "salesforce",
+        "tasks"
+      ]
+    }
+  },
+  {
+    "id": "42",
+    "text": "Question: Can users filter expenses by approval status? Answer: Yes, users can filter and view approved or rejected expenses in the Expenses section.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "filter",
+        "approved",
+        "rejected",
+        "Expenses section"
+      ]
+    }
+  },
+  {
+    "id": "43",
+    "text": "Question: How do I set or add an expense or reimbursement? Answer: Go to the 'Expenses' section, tap the '+' button, enter the expense details, and tap submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "Expenses",
+        "expense details",
+        "submit",
+        "+ button"
+      ]
+    }
+  },
+  {
+    "id": "44",
+    "text": "Question: Can a submitted meeting be edited? Answer: No, once a meeting is submitted, it cannot be edited. You may request a manager to review or log a follow-up.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "meeting",
+        "submitted",
+        "edit",
+        "manager",
+        "review",
+        "follow-up"
+      ]
+    }
+  },
+  {
+    "id": "45",
+    "text": "Question: How do I create a new client? Answer: To create a new client, you must fill in details such as Client Name, Contact Number, Email, Address, and optionally GST details.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "client",
+        "Client Name",
+        "Contact Number",
+        "Email",
+        "Address",
+        "GST details",
+        "add new client",
+        "add new user"
+      ]
+    }
+  },
+  {
+    "id": "46",
+    "text": "Question: How do I cancel a meeting follow-up? Answer: Go to follow up. Select a meeting, tap 'Cancel', provide cancellation remark and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "follow up",
+        "meeting",
+        "cancel",
+        "cancellation remark",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "47",
+    "text": "Question: What does SFA stand for and what is it used for? Answer: SFA stands for Sales Force Automation. It is used for tracking details of the users, when they are on Outdoor Duty, and even in meetings.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "Sales Force Automation",
+        "users",
+        "Outdoor Duty",
+        "meetings",
+        "tracking"
+      ]
+    }
+  },
+  {
+    "id": "48",
+    "text": "Question: What is a unique feature of SFA related to route creation? Answer: SFA can extract the exact route using Google APIs for route creation.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "SFA",
+        "route creation",
+        "Google APIs",
+        "route extraction",
+        "GPS"
+      ]
+    }
+  },
+  {
+    "id": "49",
+    "text": "Question: Can SFA's meeting and client pages be customized? Answer: Yes, the meeting and client page forms in SFA are dynamic, allowing users to change labels and names according to their requirements.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "SFA",
+        "dynamic forms",
+        "meeting page",
+        "client page",
+        "customization",
+        "labels",
+        "names"
+      ]
+    }
+  },
+  {
+    "id": "50",
+    "text": "Question: When will added expenses be settled to the user's account? Answer: Added expenses are usually settled within the same month, but may take up to one month if the amount exceeds 10,000.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "settlement",
+        "account",
+        "payment",
+        "amount",
+        "delay"
+      ]
+    }
+  },
+  {
+    "id": "51",
+    "text": "Question: What is the purpose of the SFA application? Answer: The SFA application helps track client visits, schedule meetings, record expenses, and manage salesforce tasks digitally.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "salesforce",
+        "tracking",
+        "meetings",
+        "expenses",
+        "client visits",
+        "app features"
+      ]
+    }
+  },
+  {
+    "id": "52",
+    "text": "Question: How can I log in to the SFA application as a user? Answer: You need your Employee ID, Password, and Company Identifier to log in. Then tap the \u2018Login\u2019 button.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "login",
+        "Employee ID",
+        "Password",
+        "Company Identifier",
+        "user login"
+      ]
+    }
+  },
+  {
+    "id": "53",
+    "text": "Question: Can an Admin or Manager log in with the same credentials format as a user? Answer: Yes, Admins and Managers use the same credentials: Employee ID, Password, and Company Identifier.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "login",
+        "Admin",
+        "Manager",
+        "credentials",
+        "authentication"
+      ]
+    }
+  },
+  {
+    "id": "54",
+    "text": "Question: What is the role of the Company Identifier during login? Answer: It links the user credentials to a specific organization and is mandatory for login.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Login",
+      "keywords": [
+        "Company Identifier",
+        "login",
+        "organization",
+        "authentication"
+      ]
+    }
+  },
+  {
+    "id": "55",
+    "text": "Question: How do I start or stop my Outdoor Duty (OD)? Answer: Tap the \u2018Toggle Button\u2019 on the Dashboard to start or stop Outdoor Duty.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "Outdoor Duty",
+        "OD",
+        "Toggle Button",
+        "start",
+        "stop"
+      ]
+    }
+  },
+  {
+    "id": "56",
+    "text": "Question: Is it possible to view the route taken during OD meetings? Answer: Yes, each meeting includes a \u2018Route\u2019 option that lets you view your OD path using a map.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "OD",
+        "route",
+        "map",
+        "meetings",
+        "GPS logs"
+      ]
+    }
+  },
+  {
+    "id": "57",
+    "text": "Question: Is GPS tracking mandatory for OD and meetings? Answer: Yes, GPS is used to calculate distance traveled and log actual meeting locations.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "GPS",
+        "tracking",
+        "OD",
+        "meetings",
+        "distance"
+      ]
+    }
+  },
+  {
+    "id": "58",
+    "text": "Question: What should I do if GPS is turned off or unavailable during a meeting? Answer: Enable GPS manually. If still unavailable, the app may not allow you to proceed.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "GPS",
+        "unavailable",
+        "enable",
+        "location"
+      ]
+    }
+  },
+  {
+    "id": "59",
+    "text": "Question: Can users see a summary of their OD activities? Answer: Yes, a report of OD start/end times, meeting count, and distance covered is available.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "summary",
+        "OD",
+        "distance",
+        "report"
+      ]
+    }
+  },
+  {
+    "id": "60",
+    "text": "Question: How are distance and travel expenses calculated in the SFA App? Answer: The app uses GPS tracking to calculate distance and link travel expenses to OD and meetings.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "GPS",
+        "travel expenses",
+        "OD",
+        "distance",
+        "tracking"
+      ]
+    }
+  },
+  {
+    "id": "61",
+    "text": "Question: Why is it important to create a meeting for every client visit? Answer: Creating meetings logs your visit and helps calculate travel distance, which is essential for tracking and reporting.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "meetings",
+        "client visit",
+        "travel distance",
+        "tracking",
+        "reporting"
+      ]
+    }
+  },
+  {
+    "id": "62",
+    "text": "Question: How can I create a meeting for an existing client? Answer: Tap \u2018Meeting\u2019, press the \u2018+\u2019 button, select \u2018Existing Client\u2019, choose the client, and enter meeting details after the meeting ends.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "existing client",
+        "create meeting",
+        "meeting details"
+      ]
+    }
+  },
+  {
+    "id": "63",
+    "text": "Question: How can I create a meeting for a new client? Answer: Tap \u2018Meeting\u2019, press the \u2018+\u2019 button, select \u2018New Client\u2019, fill in client details, save, and submit the meeting details.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "new client",
+        "create meeting",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "64",
+    "text": "Question: What does \u2018Mark Meeting Without Info\u2019 mean? Answer: It allows you to mark a meeting at a location without filling client or meeting details. Default info is saved automatically.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "mark meeting",
+        "no info",
+        "location"
+      ]
+    }
+  },
+  {
+    "id": "65",
+    "text": "Question: Can I schedule a follow-up meeting while creating the current meeting? Answer: Yes, follow-ups can be scheduled during the meeting entry process.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "follow-up",
+        "meeting entry",
+        "schedule"
+      ]
+    }
+  },
+  {
+    "id": "66",
+    "text": "Question: How can I schedule a future meeting? Answer: From the Leads/Clients list, choose the client, tap \u2018Schedule Meeting\u2019, enter details, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "schedule",
+        "future meeting",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "67",
+    "text": "Question: Can an Admin or Manager schedule meetings for other users? Answer: Yes, Admins and Managers get a dropdown to assign meetings to users.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "Admin",
+        "Manager",
+        "assign",
+        "meetings"
+      ]
+    }
+  },
+  {
+    "id": "68",
+    "text": "Question: What types of filters are available in the Meetings section? Answer: Users can filter meetings by Date, Client, Status (Pending or Completed), and Meeting Type.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "filters",
+        "Date",
+        "Client",
+        "Status",
+        "Meeting Type"
+      ]
+    }
+  },
+  {
+    "id": "69",
+    "text": "Question: What is the use of \u2018Mark Without Meeting Info\u2019? Answer: It allows field agents to quickly mark their location when client or meeting details aren't available on the spot.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "mark",
+        "location",
+        "field agents"
+      ]
+    }
+  },
+  {
+    "id": "70",
+    "text": "Question: Can I edit a meeting after it has been submitted? Answer: No. You may request a manager to review or log a follow-up instead.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "edit",
+        "submitted",
+        "follow-up"
+      ]
+    }
+  },
+  {
+    "id": "71",
+    "text": "Question: How can I add meeting-wise expenses? Answer: Go to the Meeting list, select a meeting, tap \u2018Add Expense\u2019, fill in details, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "expenses",
+        "add",
+        "meeting-wise",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "72",
+    "text": "Question: How can I add day-wise expenses? Answer: Go to the \u2018Expenses\u2019 section, tap the \u2018+\u2019 button, enter the expense details, and tap submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "day-wise",
+        "expenses",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "73",
+    "text": "Question: Can I view the status of my submitted expenses? Answer: Yes, users can filter and view approved or rejected expenses in the Expenses section.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "status",
+        "expenses",
+        "approved",
+        "rejected"
+      ]
+    }
+  },
+  {
+    "id": "74",
+    "text": "Question: Who can approve or reject submitted expenses? Answer: Only Managers or Approvers can approve or reject expenses.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "approve",
+        "reject",
+        "expenses",
+        "Managers",
+        "Approvers"
+      ]
+    }
+  },
+  {
+    "id": "75",
+    "text": "Question: Can partial approvals be made for expenses? Answer: Yes, but only for individual expenses, not cumulative totals.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Expenses",
+      "keywords": [
+        "partial approvals",
+        "individual",
+        "expenses"
+      ]
+    }
+  },
+  {
+    "id": "76",
+    "text": "Question: How do I create a new lead or client in the system? Answer: Go to \u2018Leads/Clients\u2019, tap the \u2018+\u2019 button, fill in the required fields, and tap \u2018Add Lead/Client\u2019.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "create",
+        "lead",
+        "client",
+        "Leads/Clients"
+      ]
+    }
+  },
+  {
+    "id": "77",
+    "text": "Question: How can I update an existing lead or client? Answer: Select a lead or client, tap \u2018Edit\u2019 on the top right, modify details, and tap \u2018Update\u2019.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "update",
+        "lead",
+        "client",
+        "edit"
+      ]
+    }
+  },
+  {
+    "id": "78",
+    "text": "Question: Can I add branches to an existing client? Answer: Yes, use the \u2018Branch\u2019 option while editing a client to add branches.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "branches",
+        "client",
+        "edit"
+      ]
+    }
+  },
+  {
+    "id": "79",
+    "text": "Question: What information is required to create a new client? Answer: Client Name, Contact Number, Email, Address, and optionally GST details.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "Client Name",
+        "Contact",
+        "Email",
+        "Address",
+        "GST"
+      ]
+    }
+  },
+  {
+    "id": "80",
+    "text": "Question: Can I add images or attachments while adding client or meeting details? Answer: Yes, the system supports uploading client images and meeting photos if required by your company.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Clients/Leads",
+      "keywords": [
+        "attachments",
+        "upload",
+        "client",
+        "meeting"
+      ]
+    }
+  },
+  {
+    "id": "81",
+    "text": "Question: What is the Follow-Ups section used for? Answer: It allows users to view, reschedule, cancel, or reassign previously scheduled follow-up meetings.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "follow-up",
+        "view",
+        "reschedule",
+        "cancel",
+        "reassign"
+      ]
+    }
+  },
+  {
+    "id": "82",
+    "text": "Question: Under what conditions can a meeting be rescheduled? Answer: Only if the assigned user hasn't started OD and the meeting time hasn't started.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "reschedule",
+        "conditions",
+        "OD"
+      ]
+    }
+  },
+  {
+    "id": "83",
+    "text": "Question: How can I reschedule a meeting? Answer: Go to Follow-Ups, select a meeting, tap \u2018Reschedule\u2019, fill in the details, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "reschedule",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "84",
+    "text": "Question: How can I cancel a scheduled meeting? Answer: Go to Follow-Ups, select the meeting, tap \u2018Cancel\u2019, provide a cancellation remark, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "cancel",
+        "remark",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "85",
+    "text": "Question: Can managers reassign meetings to other users? Answer: Yes, from the Follow-Ups section, managers can select a meeting, tap \u2018Re-assign\u2019, choose a user, and submit.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Follow-Ups",
+      "keywords": [
+        "reassign",
+        "managers",
+        "submit"
+      ]
+    }
+  },
+  {
+    "id": "86",
+    "text": "Question: How to mark attendance in the SFA App? Answer: Users can mark attendance when starting Outdoor Duty. Integration with HRMS is also supported.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Attendance",
+      "keywords": [
+        "attendance",
+        "HRMS",
+        "Outdoor Duty",
+        "presence"
+      ]
+    }
+  },
+  {
+    "id": "87",
+    "text": "Question: How can a meeting be created? Answer: Meetings can be added, marked, or created by informing your manager, who can then create the meeting on your behalf using the admin portal.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Meetings",
+      "keywords": [
+        "meeting",
+        "create",
+        "manager",
+        "admin portal",
+        "schedule"
+      ]
+    }
+  },
+  {
+    "id": "88",
+    "text": "Question: Where can I download the SFA mobile app for Android? Answer: The SFA mobile app is available on the Play Store for Android users.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "mobile app",
+        "Android",
+        "Play Store",
+        "download"
+      ]
+    }
+  },
+  {
+    "id": "89",
+    "text": "Question: Who developed the SFA chatbot? Answer: The SFA chatbot is developed by Watsoo Express Pvt. Ltd.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "chatbot",
+        "Watsoo Express Pvt. Ltd.",
+        "developer"
+      ]
+    }
+  },
+  {
+    "id": "90",
+    "text": "Question: How does the SFA App handle fake or mock locations? Answer: The SFA App can detect fake or mock locations when fetching the current location in real time.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "SFA",
+        "fake location",
+        "mock location",
+        "GPS",
+        "Outdoor Duty",
+        "meeting",
+        "transparency"
+      ]
+    }
+  },
+  {
+    "id": "91",
+    "text": "Question: What functionalities does the SFA application offer for employees on Outdoor Duty? Answer: The SFA application allows employees to live track the route they use when they are on Outdoor Duty.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Outdoor Duty",
+      "keywords": [
+        "SFA",
+        "Outdoor Duty",
+        "live tracking",
+        "route",
+        "employee"
+      ]
+    }
+  },
+  {
+    "id": "92",
+    "text": "Question: What does SFA stand for? Answer: SFA stands for Sales Force Application.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "SFA",
+        "Sales Force Application",
+        "definition"
+      ]
+    }
+  },
+  {
+    "id": "93",
+    "text": "Question: What are the categories of machine learning interview questions? Answer: The categories include algorithms/theory, programming skills, general interest in machine learning, and company/industry-specific questions.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "machine learning",
+        "interview questions",
+        "algorithms",
+        "programming",
+        "industry"
+      ]
+    }
+  },
+  {
+    "id": "94",
+    "text": "Question: What is the trade-off between bias and variance? Answer: Bias is error due to simplistic assumptions, while variance is error due to too much complexity. The trade-off is balancing them to minimize learning error.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "bias",
+        "variance",
+        "trade-off",
+        "machine learning",
+        "algorithm"
+      ]
+    }
+  },
+  {
+    "id": "95",
+    "text": "Question: What is the difference between supervised and unsupervised machine learning? Answer: Supervised learning requires labeled data for training, while unsupervised learning does not.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "supervised learning",
+        "unsupervised learning",
+        "labeled data",
+        "training"
+      ]
+    }
+  },
+  {
+    "id": "96",
+    "text": "Question: How is KNN different from k-means clustering? Answer: K-Nearest Neighbors (KNN) is a supervised classification algorithm, while k-means clustering is an unsupervised clustering algorithm.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "KNN",
+        "k-means",
+        "supervised",
+        "unsupervised",
+        "classification",
+        "clustering"
+      ]
+    }
+  },
+  {
+    "id": "97",
+    "text": "Question: Explain how a ROC curve works. Answer: A ROC curve is a graphical representation of true positive rates vs. false positive rates at various thresholds, used to assess sensitivity vs. false alarms.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "ROC curve",
+        "true positive rate",
+        "false positive rate",
+        "sensitivity",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "98",
+    "text": "Question: Define precision and recall. Answer: Recall is the true positive rate, while precision is the positive predictive value.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "precision",
+        "recall",
+        "true positive rate",
+        "positive predictive value",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "99",
+    "text": "Question: What is Bayes\u2019 Theorem? How is it useful in a machine learning context? Answer: Bayes' Theorem calculates the posterior probability of an event given prior knowledge and is the basis for the Naive Bayes classifier.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "Bayes Theorem",
+        "posterior probability",
+        "prior knowledge",
+        "Naive Bayes",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "100",
+    "text": "Question: Why is \u201cNaive\u201d Bayes naive? Answer: Naive Bayes is considered \u201cNaive\u201d because it assumes absolute independence of features, which is rarely true in real-life data.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "Naive Bayes",
+        "independence",
+        "features",
+        "conditional probability",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "101",
+    "text": "Question: Explain the difference between L1 and L2 regularization. Answer: L2 regularization spreads error among all terms, while L1 is more sparse, assigning variables 1 or 0 weighting.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "L1 regularization",
+        "L2 regularization",
+        "sparse",
+        "Laplacean",
+        "Gaussian"
+      ]
+    }
+  },
+  {
+    "id": "102",
+    "text": "Question: What\u2019s the difference between Type I and Type II error? Answer: Type I error is a false positive, while Type II error is a false negative.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "Type I error",
+        "Type II error",
+        "false positive",
+        "false negative",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "103",
+    "text": "Question: What\u2019s a Fourier transform? Answer: A Fourier transform decomposes generic functions into a superposition of symmetric functions and converts a signal from time to frequency domain.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "Fourier transform",
+        "frequency domain",
+        "time domain",
+        "signal processing",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "104",
+    "text": "Question: What is deep learning, and how does it contrast with other machine learning algorithms? Answer: Deep learning is a subset of machine learning that uses neural networks and backpropagation to model large sets of data.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "deep learning",
+        "neural networks",
+        "backpropagation",
+        "unsupervised learning"
+      ]
+    }
+  },
+  {
+    "id": "105",
+    "text": "Question: What\u2019s the difference between a generative and discriminative model? Answer: A generative model learns categories of data, while a discriminative model learns the distinction between different categories.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "generative model",
+        "discriminative model",
+        "classification",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "106",
+    "text": "Question: What cross-validation technique would you use on a time series dataset? Answer: Forward chaining is a suitable cross-validation technique for time series datasets because it respects the chronological order.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "cross-validation",
+        "time series",
+        "forward chaining",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "107",
+    "text": "Question: How is a decision tree pruned? Answer: Pruning involves removing branches with weak predictive power to reduce complexity and increase accuracy. Reduced error pruning is a simple approach.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "decision tree",
+        "pruning",
+        "reduced error pruning",
+        "complexity",
+        "accuracy"
+      ]
+    }
+  },
+  {
+    "id": "108",
+    "text": "Question: Which is more important to you\u2013 model accuracy, or model performance? Answer: Model performance is more important because accuracy can be misleading. Model accuracy is a subset of model performance.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "model accuracy",
+        "model performance",
+        "predictive power",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "109",
+    "text": "Question: What\u2019s the F1 score? How would you use it? Answer: The F1 score is a weighted average of precision and recall, used in classification tests where true negatives don't matter much.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "F1 score",
+        "precision",
+        "recall",
+        "classification",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "110",
+    "text": "Question: How would you handle an imbalanced dataset? Answer: Collect more data, resample the dataset, or try a different algorithm to address imbalances.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "imbalanced dataset",
+        "resample",
+        "algorithm",
+        "data collection"
+      ]
+    }
+  },
+  {
+    "id": "111",
+    "text": "Question: When should you use classification over regression? Answer: Use classification when you want discrete values and categories, while regression gives continuous results to distinguish individual points.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "classification",
+        "regression",
+        "discrete values",
+        "continuous results",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "112",
+    "text": "Question: Name an example where ensemble techniques might be useful. Answer: Ensemble techniques, combining learning algorithms, reduce overfitting and make models more robust for increased predictive power.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "ensemble techniques",
+        "overfitting",
+        "predictive performance",
+        "bagging",
+        "boosting"
+      ]
+    }
+  },
+  {
+    "id": "113",
+    "text": "Question: How do you ensure you\u2019re not overfitting with a model? Answer: Keep the model simpler, use cross-validation techniques, or regularization techniques to avoid overfitting training data.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "overfitting",
+        "cross-validation",
+        "regularization",
+        "model complexity"
+      ]
+    }
+  },
+  {
+    "id": "114",
+    "text": "Question: What evaluation approaches would you work to gauge the effectiveness of a machine learning model? Answer: Split data into training/test sets, use cross-validation, and implement performance metrics like F1 score, accuracy, and confusion matrix.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "evaluation",
+        "training set",
+        "test set",
+        "cross-validation",
+        "performance metrics"
+      ]
+    }
+  },
+  {
+    "id": "115",
+    "text": "Question: How would you evaluate a logistic regression model? Answer: Understand the typical goals (classification, prediction) and provide examples and use cases related to these goals.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "logistic regression",
+        "evaluation",
+        "classification",
+        "prediction"
+      ]
+    }
+  },
+  {
+    "id": "116",
+    "text": "Question: What\u2019s the \u201ckernel trick\u201d and how is it useful? Answer: The Kernel trick involves kernel functions that enable in higher-dimension spaces without explicitly calculating the coordinates of points within that dimension.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "kernel trick",
+        "kernel function",
+        "higher-dimension space",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "117",
+    "text": "Question: How do you handle missing or corrupted data in a dataset? Answer: Either drop those rows or columns, or decide to replace them with another value using methods like isnull(), dropna(), and fillna() in Pandas.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "missing data",
+        "corrupted data",
+        "isnull()",
+        "dropna()",
+        "fillna()",
+        "Pandas"
+      ]
+    }
+  },
+  {
+    "id": "118",
+    "text": "Question: Do you have experience with Spark or big data tools for machine learning? Answer: Become familiar with the meaning of big data for different companies and the different tools they\u2019ll want. Spark is the big data tool most in demand now.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "Spark",
+        "big data tools",
+        "machine learning",
+        "data processing"
+      ]
+    }
+  },
+  {
+    "id": "119",
+    "text": "Question: What are some differences between a linked list and an array? Answer: An array is an ordered collection of objects. A linked list is a series of objects with pointers that direct how to process them sequentially. An array assumes that every element has the same size, unlike the linked list.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "linked list",
+        "array",
+        "data structures",
+        "programming"
+      ]
+    }
+  },
+  {
+    "id": "120",
+    "text": "Question: Describe a hash table. Answer: A hash table is a data structure that produces an associative array. A key is mapped to certain values through the use of a hash function.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "hash table",
+        "associative array",
+        "hash function",
+        "data structure"
+      ]
+    }
+  },
+  {
+    "id": "121",
+    "text": "Question: Which data visualization libraries do you use? What are your thoughts on the best data visualization tools? Answer: Popular tools include R\u2019s ggplot, Python\u2019s seaborn and matplotlib, and tools such as Plot.ly and Tableau.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "data visualization",
+        "ggplot",
+        "seaborn",
+        "matplotlib",
+        "Plot.ly",
+        "Tableau"
+      ]
+    }
+  },
+  {
+    "id": "122",
+    "text": "Question: How would you implement a recommendation system for our company\u2019s users? Answer: Research the company and its industry in-depth, especially the revenue drivers the company has, and the types of users the company takes on in the context of the industry it\u2019s in.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "recommendation system",
+        "revenue drivers",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "123",
+    "text": "Question: How can we use your machine learning skills to generate revenue? Answer: Demonstrate knowledge of what drives the business and how your skills could relate, such as improving user retention.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "revenue generation",
+        "machine learning skills",
+        "user retention"
+      ]
+    }
+  },
+  {
+    "id": "124",
+    "text": "Question: What do you think of our current data process? Answer: Impart feedback in a manner that is constructive and insightful and gauge if you\u2019d be a valuable member of their team.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "data process",
+        "feedback",
+        "constructive",
+        "team member"
+      ]
+    }
+  },
+  {
+    "id": "125",
+    "text": "Question: What are the last machine learning papers you\u2019ve read? Answer: Keeping up with the latest scientific literature on machine learning is a must if you want to demonstrate interest in a machine learning position.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "machine learning papers",
+        "scientific literature",
+        "deep learning"
+      ]
+    }
+  },
+  {
+    "id": "126",
+    "text": "Question: Do you have research experience in machine learning? Answer: Make sure you have a summary of your research experience and papers ready \u2014 and an explanation for your background and lack of formal research experience if you don\u2019t.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "research experience",
+        "machine learning",
+        "research papers"
+      ]
+    }
+  },
+  {
+    "id": "127",
+    "text": "Question: What are your favorite use cases of machine learning models? Answer: Make sure that you have a few examples in mind and describe what resonated with you.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "machine learning models",
+        "use cases",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "128",
+    "text": "Question: How would you approach the \u201cNetflix Prize\u201d competition? Answer: The team that won called BellKor had a 10% improvement and used an ensemble of different methods to win.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "Netflix Prize",
+        "collaborative filtering",
+        "ensemble methods",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "129",
+    "text": "Question: Where do you usually source datasets? Answer: Somebody who is truly passionate about machine learning will have gone off and done side projects on their own, and have a good idea of what great datasets are out there.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "datasets",
+        "Quanl",
+        "Kaggle Datasets",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "130",
+    "text": "Question: How do you think Google is training data for self-driving cars? Answer: Google is currently using recaptcha to source labeled data on storefronts and traffic signs.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "training data",
+        "self-driving cars",
+        "recaptcha",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "131",
+    "text": "Question: How would you simulate the approach AlphaGo took to beat Lee Sidol at Go? Answer: AlphaGo uses Monte-Carlo tree search with deep neural networks that have been trained by supervised learning, from human expert games, and by reinforcement learning from games of self-play.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "AlphaGo",
+        "Lee Sidol",
+        "Go",
+        "Monte-Carlo tree search",
+        "deep neural networks",
+        "reinforcement learning"
+      ]
+    }
+  },
+  {
+    "id": "132",
+    "text": "Question: What is the difference between supervised and unsupervised learning? Answer: Supervised learning uses labeled data for prediction (e.g., spam email detection), while unsupervised learning finds patterns in unlabeled data (e.g., customer segmentation).",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "supervised learning",
+        "unsupervised learning",
+        "labeled data",
+        "unlabeled data",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "133",
+    "text": "Question: How does a decision tree work, and how do you handle overfitting in it? Answer: A decision tree splits data based on feature values. Overfitting is handled by pruning, limiting tree depth, or setting a minimum number of samples per leaf.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "decision tree",
+        "overfitting",
+        "pruning",
+        "tree depth",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "134",
+    "text": "Question: What is the bias-variance tradeoff, and how does it impact model performance? Answer: The bias-variance tradeoff balances model complexity. High bias causes underfitting, and high variance causes overfitting. Optimal models minimize both.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "bias-variance tradeoff",
+        "underfitting",
+        "overfitting",
+        "model complexity",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "135",
+    "text": "Question: How does gradient descent optimize a machine learning model? Answer: Gradient descent iteratively updates model parameters by minimizing a loss function, using a learning rate to move in the direction of the steepest negative gradient.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "gradient descent",
+        "loss function",
+        "learning rate",
+        "optimization",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "136",
+    "text": "Question: What are precision, recall, and F1-score, and when would you prioritize one over the others? Answer: Precision is true positives/(true positives + false positives); recall is true positives/(true positives + false negatives); F1-score is their harmonic mean. Prioritize precision for low false positives, and recall for low false negatives.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "precision",
+        "recall",
+        "F1-score",
+        "false positives",
+        "false negatives",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "137",
+    "text": "Question: What is the role of activation functions in neural networks? Compare ReLU and sigmoid. Answer: Activation functions introduce non-linearity. ReLU is computationally efficient and avoids vanishing gradients, but can cause dead neurons. Sigmoid outputs 0-1 and is suitable for binary classification, but prone to vanishing gradients.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "activation function",
+        "ReLU",
+        "sigmoid",
+        "neural network",
+        "vanishing gradients",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "138",
+    "text": "Question: How would you preprocess text data for an NLP task? Answer: Tokenize text, convert to lowercase, remove stop words/punctuation, apply stemming/lemmatization, and encode (e.g., TF-IDF or word embeddings).",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "text preprocessing",
+        "NLP",
+        "tokenization",
+        "stemming",
+        "lemmatization",
+        "TF-IDF",
+        "word embeddings"
+      ]
+    }
+  },
+  {
+    "id": "139",
+    "text": "Question: What is the vanishing gradient problem, and how can it be mitigated? Answer: Vanishing gradients occur when gradients become too small during backpropagation, slowing learning. Mitigate with ReLU activation, batch normalization, or architectures like LSTM/GRU.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "vanishing gradient",
+        "backpropagation",
+        "ReLU",
+        "batch normalization",
+        "LSTM",
+        "GRU",
+        "neural network"
+      ]
+    }
+  },
+  {
+    "id": "140",
+    "text": "Question: Describe the k-means clustering algorithm and its limitations. Answer: K-means assigns data points to k clusters by minimizing within-cluster variance. Limitations: assumes spherical clusters, sensitive to outliers, and requires predefined k.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "k-means",
+        "clustering",
+        "within-cluster variance",
+        "outliers",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "141",
+    "text": "Question: How do you select features for a machine learning model? Name two techniques. Answer: Feature selection reduces irrelevant features. Techniques: filter methods (e.g., correlation analysis) and wrapper methods (e.g., recursive feature elimination).",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "feature selection",
+        "filter methods",
+        "wrapper methods",
+        "correlation analysis",
+        "recursive feature elimination",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "142",
+    "text": "Question: What is regularization, and how do L1 and L2 regularization differ? Answer: Regularization adds a penalty to the loss function to prevent overfitting. L1 (Lasso) adds absolute weight penalties, promoting sparsity; L2 (Ridge) adds squared weight penalties, reducing weight magnitude.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "regularization",
+        "L1",
+        "L2",
+        "Lasso",
+        "Ridge",
+        "overfitting",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "143",
+    "text": "Question: How does a convolutional neural network (CNN) process image data? Answer: CNNs use convolutional layers to extract features, pooling layers to reduce dimensions, and fully connected layers for classification, leveraging spatial hierarchies in images.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "CNN",
+        "convolutional neural network",
+        "convolutional layers",
+        "pooling layers",
+        "image processing",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "144",
+    "text": "Question: What is cross-validation, and why is k-fold cross-validation preferred? Answer: Cross-validation evaluates model performance by splitting data into training/test sets. K-fold splits data into k subsets, training on k-1 and testing on 1, averaging results for robust performance estimation.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "cross-validation",
+        "k-fold cross-validation",
+        "training set",
+        "test set",
+        "model performance",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "145",
+    "text": "Question: How would you handle imbalanced datasets in a classification problem? Answer: Use oversampling (e.g., SMOTE), undersampling, class-weighted loss functions, or ensemble methods to balance model focus on minority classes.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "imbalanced datasets",
+        "oversampling",
+        "undersampling",
+        "SMOTE",
+        "class-weighted loss functions",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "146",
+    "text": "Question: Describe the architecture of a recurrent neural network (RNN) and its use cases. Answer: RNNs process sequential data with loops, retaining memory of previous inputs. Use cases: time-series prediction, speech recognition. Variants like LSTM handle long-term dependencies.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "RNN",
+        "recurrent neural network",
+        "sequential data",
+        "time-series prediction",
+        "speech recognition",
+        "LSTM"
+      ]
+    }
+  },
+  {
+    "id": "147",
+    "text": "Question: What is transfer learning, and when would you use it in a deep learning project? Answer: Transfer learning uses pre-trained models (e.g., BERT, VGG) fine-tuned for specific tasks. Use when data is limited or training from scratch is computationally expensive.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "transfer learning",
+        "pre-trained models",
+        "BERT",
+        "VGG",
+        "deep learning",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "148",
+    "text": "Question: How do you evaluate the performance of a regression model? Name three metrics. Answer: Metrics: Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "regression",
+        "MSE",
+        "MAE",
+        "R-squared",
+        "model evaluation",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "149",
+    "text": "Question: Explain the concept of word embeddings in NLP. How does Word2Vec work? Answer: Word embeddings map words to dense vectors capturing semantic meaning. Word2Vec uses neural networks (CBOW or skip-gram) to predict words from context or vice versa.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "word embeddings",
+        "NLP",
+        "Word2Vec",
+        "CBOW",
+        "skip-gram",
+        "neural networks"
+      ]
+    }
+  },
+  {
+    "id": "150",
+    "text": "Question: What are hyperparameters, and how do you tune them (e.g., grid search vs. random search)? Answer: Hyperparameters are model settings. Grid search tests all combinations; random search samples randomly.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "hyperparameters",
+        "grid search",
+        "random search",
+        "model tuning",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "151",
+    "text": "Question: Describe a recent AI/ML project you worked on, including the problem, approach, and results. Answer: Built a churn prediction model using logistic regression on customer data. Preprocessed with one-hot encoding, used grid search for hyperparameter tuning, and achieved 85% accuracy on test data.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "AI",
+        "ML",
+        "churn prediction",
+        "logistic regression",
+        "one-hot encoding",
+        "grid search",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "152",
+    "text": "Question: What is the difference between supervised and unsupervised learning? Answer: Supervised learning uses labeled data to predict outcomes, such as spam email detection. Unsupervised learning finds patterns in unlabeled data, such as customer segmentation based on purchase behavior.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "supervised learning",
+        "unsupervised learning",
+        "labeled data",
+        "unlabeled data",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "153",
+    "text": "Question: How does a decision tree work, and how do you handle overfitting in it? Answer: A decision tree splits data into branches based on feature values to make decisions. Overfitting is handled by pruning, limiting tree depth, or setting a minimum number of samples per leaf.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "decision tree",
+        "overfitting",
+        "pruning",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "154",
+    "text": "Question: What is the bias-variance tradeoff, and how does it impact model performance? Answer: The bias-variance tradeoff balances model complexity. High bias causes poor training performance; high variance causes poor generalization. Optimal models minimize both for better test performance.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "bias-variance tradeoff",
+        "underfitting",
+        "overfitting",
+        "model performance",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "155",
+    "text": "Question: How does gradient descent optimize a machine learning model? Answer: Gradient descent iteratively updates model parameters by minimizing a loss function, moving in the direction of the steepest negative gradient using a learning rate.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "gradient descent",
+        "optimization",
+        "loss function",
+        "learning rate",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "156",
+    "text": "Question: What are precision, recall, and F1-score? When should you prioritize one over the others? Answer: Precision is true positives/(true positives + false positives); recall is true positives/(true positives + false negatives); F1-score is their harmonic mean. Prioritize precision for low false positives (e.g., spam detection), recall for low false negatives (e.g., disease detection).",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "precision",
+        "recall",
+        "F1-score",
+        "false positives",
+        "false negatives",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "157",
+    "text": "Question: Explain the role of activation functions in neural networks. Compare ReLU and sigmoid. Answer: Activation functions introduce non-linearity. ReLU is computationally efficient, avoids vanishing gradients, but can cause dead neurons. Sigmoid outputs 0-1, suitable for binary classification, but prone to vanishing gradients.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "activation function",
+        "neural networks",
+        "ReLU",
+        "sigmoid",
+        "vanishing gradients",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "158",
+    "text": "Question: How would you preprocess text data for an NLP task? Answer: Tokenize text, convert to lowercase, remove stop words/punctuation, apply stemming/lemmatization, and encode (e.g., TF-IDF or word embeddings) for model input.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "text data",
+        "preprocessing",
+        "NLP",
+        "tokenization",
+        "stemming",
+        "lemmatization",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "159",
+    "text": "Question: What is the vanishing gradient problem, and how can it be mitigated? Answer: Vanishing gradients occur when gradients become too small during back-propagation, slowing learning. Mitigate with ReLU activation, batch normalization, or architectures like LSTM/GRU.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "vanishing gradient",
+        "backpropagation",
+        "ReLU",
+        "LSTM",
+        "GRU",
+        "neural networks",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "160",
+    "text": "Question: Describe the k-means clustering algorithm and its limitations. Answer: K-means assigns data points to k clusters by minimizing within-cluster variance. Limitations: assumes spherical clusters, sensitive to outliers, and requires predefined k.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "k-means",
+        "clustering",
+        "algorithm",
+        "limitations",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "161",
+    "text": "Question: How do you select features for a machine learning model? Name two techniques. Answer: Feature selection reduces irrelevant features. Techniques: filter methods (e.g., correlation analysis) and wrapper methods (e.g., recursive feature elimination).",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "feature selection",
+        "filter methods",
+        "wrapper methods",
+        "correlation analysis",
+        "recursive feature elimination",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "162",
+    "text": "Question: What is regularization, and how do L1 and L2 regularization differ? Answer: Regularization adds a penalty to the loss function to prevent overfitting. L1 (Lasso) adds absolute weight penalties, promoting sparsity; L2 (Ridge) adds squared weight penalties, reducing weight magnitude.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "regularization",
+        "L1 regularization",
+        "L2 regularization",
+        "Lasso",
+        "Ridge",
+        "overfitting",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "163",
+    "text": "Question: Explain how a convolutional neural network (CNN) processes image data. Answer: CNNs use convolutional layers to extract features (e.g., edges), pooling layers to reduce dimensions, and fully connected layers for classification, leveraging spatial hierarchies in images.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "convolutional neural network",
+        "CNN",
+        "image data",
+        "convolutional layers",
+        "pooling layers",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "164",
+    "text": "Question: What is cross-validation, and why is k-fold cross-validation preferred? Answer: Cross-validation evaluates model performance by splitting data into training/test sets. K-fold splits data into k subsets, training on k-1 and testing on 1, averaging results for robust performance estimation.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "cross-validation",
+        "k-fold cross-validation",
+        "model performance",
+        "training set",
+        "test set",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "165",
+    "text": "Question: How would you handle imbalanced datasets in a classification problem? Answer: Use oversampling (e.g., SMOTE), undersampling, class-weighted loss functions, or ensemble methods to balance model focus on minority classes.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "imbalanced datasets",
+        "oversampling",
+        "undersampling",
+        "SMOTE",
+        "classification",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "166",
+    "text": "Question: Describe the architecture of a recurrent neural network (RNN) and its use cases. Answer: RNNs process sequential data with loops, retaining memory of previous inputs. Use cases: time-series prediction, speech recognition. Variants like LSTM handle long-term dependencies.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "recurrent neural network",
+        "RNN",
+        "sequential data",
+        "time-series prediction",
+        "speech recognition",
+        "LSTM",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "167",
+    "text": "Question: What is transfer learning, and when would you use it in a deep learning project? Answer: Transfer learning uses pre-trained models (e.g., BERT, VGG) fine-tuned for specific tasks. Use when data is limited or training from scratch is computationally expensive.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "transfer learning",
+        "pre-trained models",
+        "BERT",
+        "VGG",
+        "deep learning",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "168",
+    "text": "Question: How do you evaluate the performance of a regression model? Name three metrics. Answer: Metrics: Mean Squared Error (MSE) for average squared errors, Mean Absolute Error (MAE) for average absolute errors, and R-squared for variance explained.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "regression model",
+        "Mean Squared Error",
+        "MSE",
+        "Mean Absolute Error",
+        "MAE",
+        "R-squared",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "169",
+    "text": "Question: Explain the concept of word embeddings in NLP. How does Word2Vec work? Answer: Word embeddings map words to dense vectors capturing semantic meaning. Word2Vec uses neural networks (CBOW or skip-gram) to predict words from context or vice versa.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "word embeddings",
+        "NLP",
+        "Word2Vec",
+        "CBOW",
+        "skip-gram",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "170",
+    "text": "Question: What are hyperparameters, and how do you tune them (e.g., grid search vs. random search)? Answer: Hyperparameters are model settings (e.g., learning rate). Grid search tests all combinations; random search samples randomly, often faster for large spaces.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "hyperparameters",
+        "grid search",
+        "random search",
+        "model tuning",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "171",
+    "text": "Question: Describe a recent AI/ML project you worked on, including the problem, approach, and results. Answer: Example: Built a churn prediction model using logistic regression on customer data. Preprocessed with one-hot encoding, used grid search for hyperparameter tuning, and achieved 85% accuracy on test data.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "AI/ML project",
+        "churn prediction",
+        "logistic regression",
+        "one-hot encoding",
+        "grid search",
+        "hyperparameter tuning",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "172",
+    "text": "Question: Unknown Answer: Unable to process paragraph",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "error",
+        "unknown"
+      ]
+    }
+  },
+  {
+    "id": "173",
+    "text": "Question: What is the difference between supervised and unsupervised learning? Answer: Supervised learning uses labeled data to predict outcomes, such as spam email detection. Unsupervised learning finds patterns in unlabeled data, such as customer segmentation.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "supervised learning",
+        "unsupervised learning",
+        "labeled data",
+        "unlabeled data",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "174",
+    "text": "Question: How does a decision tree work, and how do you handle overfitting in it? Answer: A decision tree splits data into branches based on feature values. Overfitting is handled by pruning, limiting tree depth, or setting a minimum number of samples per leaf.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "decision tree",
+        "overfitting",
+        "pruning",
+        "tree depth",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "175",
+    "text": "Question: What is the bias-variance tradeoff, and how does it impact model performance? Answer: The bias-variance tradeoff balances model complexity. High bias causes underfitting, and high variance causes overfitting. Optimal models minimize both.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "bias-variance tradeoff",
+        "underfitting",
+        "overfitting",
+        "model complexity",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "176",
+    "text": "Question: How does gradient descent optimize a machine learning model? Answer: Gradient descent iteratively updates model parameters by minimizing a loss function, moving in the direction of the steepest negative gradient using a learning rate.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "gradient descent",
+        "loss function",
+        "model parameters",
+        "learning rate",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "177",
+    "text": "Question: What are precision, recall, and F1-score? When would you prioritize one over the others? Answer: Precision is true positives/(true positives + false positives); recall is true positives/(true positives + false negatives); F1-score is their harmonic mean. Prioritize precision for low false positives and recall for low false negatives.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "precision",
+        "recall",
+        "F1-score",
+        "false positives",
+        "false negatives",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "178",
+    "text": "Question: Explain the role of activation functions in neural networks. Compare ReLU and sigmoid. Answer: Activation functions introduce non-linearity. ReLU is computationally efficient and avoids vanishing gradients, but can cause dead neurons. Sigmoid outputs 0-1, suitable for binary classification, but is prone to vanishing gradients.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "activation functions",
+        "neural networks",
+        "ReLU",
+        "sigmoid",
+        "vanishing gradients"
+      ]
+    }
+  },
+  {
+    "id": "179",
+    "text": "Question: How would you preprocess text data for an NLP task? Answer: Tokenize text, convert to lowercase, remove stop words/punctuation, apply stemming/lemmatization, and encode (e.g., TF-IDF or word embeddings).",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "text data",
+        "NLP",
+        "preprocessing",
+        "tokenization",
+        "stemming",
+        "lemmatization",
+        "TF-IDF",
+        "word embeddings"
+      ]
+    }
+  },
+  {
+    "id": "180",
+    "text": "Question: What is the vanishing gradient problem, and how can it be mitigated? Answer: Vanishing gradients occur when gradients become too small during back-propagation, slowing learning. Mitigate with ReLU activation, batch normalization, or architectures like LSTM/GRU.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "vanishing gradient",
+        "back-propagation",
+        "ReLU activation",
+        "batch normalization",
+        "LSTM",
+        "GRU"
+      ]
+    }
+  },
+  {
+    "id": "181",
+    "text": "Question: Describe the k-means clustering algorithm and its limitations. Answer: K-means assigns data points to k clusters by minimizing within-cluster variance. Limitations: assumes spherical clusters, sensitive to outliers, and requires predefined k.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "k-means",
+        "clustering",
+        "within-cluster variance",
+        "spherical clusters",
+        "outliers"
+      ]
+    }
+  },
+  {
+    "id": "182",
+    "text": "Question: How do you select features for a machine learning model? Name two techniques. Answer: Feature selection reduces irrelevant features. Techniques: filter methods (e.g., correlation analysis) and wrapper methods (e.g., recursive feature elimination).",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "feature selection",
+        "filter methods",
+        "wrapper methods",
+        "correlation analysis",
+        "recursive feature elimination"
+      ]
+    }
+  },
+  {
+    "id": "183",
+    "text": "Question: What is regularization, and how do L1 and L2 regularization differ? Answer: Regularization adds a penalty to the loss function to prevent overfitting. L1 (Lasso) adds absolute weight penalties, promoting sparsity; L2 (Ridge) adds squared weight penalties, reducing weight magnitude.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "regularization",
+        "L1 regularization",
+        "L2 regularization",
+        "Lasso",
+        "Ridge",
+        "overfitting"
+      ]
+    }
+  },
+  {
+    "id": "184",
+    "text": "Question: Explain how a convolutional neural network (CNN) processes image data. Answer: CNNs use convolutional layers to extract features, pooling layers to reduce dimensions, and fully connected layers for classification, leveraging spatial hierarchies in images.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "convolutional neural network",
+        "CNN",
+        "convolutional layers",
+        "pooling layers",
+        "image data"
+      ]
+    }
+  },
+  {
+    "id": "185",
+    "text": "Question: What is cross-validation, and why is k-fold cross-validation preferred? Answer: Cross-validation evaluates model performance by splitting data into training/test sets. K-fold splits data into k subsets, training on k-1 and testing on 1, averaging results for robust performance estimation.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "cross-validation",
+        "k-fold cross-validation",
+        "training set",
+        "test set",
+        "model performance"
+      ]
+    }
+  },
+  {
+    "id": "186",
+    "text": "Question: How would you handle imbalanced datasets in a classification problem? Answer: Use oversampling (e.g., SMOTE), undersampling, class-weighted loss functions, or ensemble methods to balance model focus on minority classes.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "imbalanced datasets",
+        "oversampling",
+        "undersampling",
+        "SMOTE",
+        "class-weighted loss functions"
+      ]
+    }
+  },
+  {
+    "id": "187",
+    "text": "Question: Describe the architecture of a recurrent neural network (RNN) and its use cases. Answer: RNNs process sequential data with loops, retaining memory of previous inputs. Use cases: time-series prediction, speech recognition. Variants like LSTM handle long-term dependencies.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "recurrent neural network",
+        "RNN",
+        "sequential data",
+        "time-series prediction",
+        "speech recognition",
+        "LSTM"
+      ]
+    }
+  },
+  {
+    "id": "188",
+    "text": "Question: What is transfer learning, and when would you use it in a deep learning project? Answer: Transfer learning uses pre-trained models (e.g., BERT, VGG) fine-tuned for specific tasks. Use when data is limited or training from scratch is computationally expensive.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "transfer learning",
+        "pre-trained models",
+        "BERT",
+        "VGG",
+        "deep learning"
+      ]
+    }
+  },
+  {
+    "id": "189",
+    "text": "Question: How do you evaluate the performance of a regression model? Name three metrics. Answer: Metrics: Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "regression model",
+        "Mean Squared Error",
+        "MSE",
+        "Mean Absolute Error",
+        "MAE",
+        "R-squared"
+      ]
+    }
+  },
+  {
+    "id": "190",
+    "text": "Question: Explain the concept of word embeddings in NLP. How does Word2Vec work? Answer: Word embeddings map words to dense vectors capturing semantic meaning. Word2Vec uses neural networks (CBOW or skip-gram) to predict words from context or vice versa.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "word embeddings",
+        "NLP",
+        "Word2Vec",
+        "CBOW",
+        "skip-gram"
+      ]
+    }
+  },
+  {
+    "id": "191",
+    "text": "Question: What are hyperparameters, and how do you tune them (e.g., grid search vs. random search)? Answer: Hyperparameters are model settings (e.g., learning rate). Grid search tests all combinations; random search samples randomly, often faster for large spaces.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "hyperparameters",
+        "grid search",
+        "random search",
+        "learning rate",
+        "model settings"
+      ]
+    }
+  },
+  {
+    "id": "192",
+    "text": "Question: Describe a recent AI/ML project you worked on, including the problem, approach, and results. Answer: Built a churn prediction model using logistic regression on customer data. Preprocessed with one-hot encoding, used grid search for hyperparameter tuning, and achieved 85% accuracy on test data.",
+    "metadata": {
+      "source": "sfa_faq",
+      "category": "Overview",
+      "keywords": [
+        "AI/ML project",
+        "churn prediction",
+        "logistic regression",
+        "one-hot encoding",
+        "grid search",
+        "hyperparameter tuning"
+      ]
+    }
+  },
+  {
+    "id": "193",
+    "text": "Question: What is the difference between supervised and unsupervised learning? Answer: Supervised learning uses labeled data to predict outcomes (e.g., spam email detection using labeled emails). Unsupervised learning finds patterns in unlabeled data (e.g., customer segmentation based on purchase behavior).",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "General",
+      "keywords": [
+        "supervised learning",
+        "unsupervised learning",
+        "labeled data",
+        "unlabeled data",
+        "spam detection",
+        "customer segmentation"
+      ]
+    }
+  },
+  {
+    "id": "194",
+    "text": "Question: How does a decision tree work, and how do you handle overfitting in it? Answer: A decision tree splits data into branches based on feature values to make decisions. Overfitting is handled by pruning (removing branches), limiting tree depth, or setting a minimum number of samples per leaf.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "decision tree",
+        "overfitting",
+        "pruning",
+        "tree depth",
+        "minimum samples",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "195",
+    "text": "Question: What is the bias-variance tradeoff, and how does it impact model performance? Answer: Bias-variance tradeoff balances model complexity. High bias (underfitting) causes poor training performance; high variance (overfitting) causes poor generalization. Optimal models minimize both for better test performance.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "bias-variance tradeoff",
+        "underfitting",
+        "overfitting",
+        "model complexity",
+        "generalization",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "196",
+    "text": "Question: How does gradient descent optimize a machine learning model? Answer: Gradient descent iteratively updates model parameters by minimizing a loss function, moving in the direction of the steepest negative gradient using a learning rate.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "gradient descent",
+        "optimization",
+        "loss function",
+        "learning rate",
+        "model parameters",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "197",
+    "text": "Question: What are precision, recall, and F1-score? When would you prioritize one over the others? Answer: Precision is true positives/(true positives + false positives); recall is true positives/(true positives + false negatives); F1-score is their harmonic mean. Prioritize precision for low false positives (e.g., spam detection), recall for low false negatives (e.g., disease detection).",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "precision",
+        "recall",
+        "F1-score",
+        "false positives",
+        "false negatives",
+        "spam detection",
+        "disease detection",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "198",
+    "text": "Question: Explain the role of activation functions in neural networks. Compare ReLU and sigmoid. Answer: Activation functions introduce non-linearity. ReLU (max(0,x)) is computationally efficient, avoids vanishing gradients, but can cause dead neurons. Sigmoid (1/(1+e^-x)) outputs 0-1, suitable for binary classification, but prone to vanishing gradients.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "activation functions",
+        "neural networks",
+        "ReLU",
+        "sigmoid",
+        "vanishing gradients",
+        "binary classification",
+        "deep learning"
+      ]
+    }
+  },
+  {
+    "id": "199",
+    "text": "Question: How would you preprocess text data for an NLP task? Answer: Tokenize text, convert to lowercase, remove stop words/punctuation, apply stemming/lemmatization, and encode (e.g., TF-IDF or word embeddings) for model input.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "text preprocessing",
+        "NLP",
+        "tokenization",
+        "lowercase",
+        "stop words",
+        "stemming",
+        "lemmatization",
+        "TF-IDF",
+        "word embeddings"
+      ]
+    }
+  },
+  {
+    "id": "200",
+    "text": "Question: What is the vanishing gradient problem, and how can it be mitigated? Answer: Vanishing gradients occur when gradients become too small during back-propagation, slowing learning. Mitigate with ReLU activation, batch normalization, or architectures like LSTM/GRU.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "vanishing gradient",
+        "back-propagation",
+        "ReLU",
+        "batch normalization",
+        "LSTM",
+        "GRU",
+        "deep learning"
+      ]
+    }
+  },
+  {
+    "id": "201",
+    "text": "Question: Describe the k-means clustering algorithm and its limitations. Answer: K-means assigns data points to k clusters by minimizing within-cluster variance. Limitations: assumes spherical clusters, sensitive to outliers, and requires predefined k.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "k-means",
+        "clustering",
+        "within-cluster variance",
+        "spherical clusters",
+        "outliers",
+        "predefined k",
+        "unsupervised learning"
+      ]
+    }
+  },
+  {
+    "id": "202",
+    "text": "Question: How do you select features for a machine learning model? Name two techniques. Answer: Feature selection reduces irrelevant features. Techniques: filter methods (e.g., correlation analysis) and wrapper methods (e.g., recursive feature elimination).",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "feature selection",
+        "filter methods",
+        "wrapper methods",
+        "correlation analysis",
+        "recursive feature elimination",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "203",
+    "text": "Question: What is regularization, and how do L1 and L2 regularization differ? Answer: Regularization adds a penalty to the loss function to prevent overfitting. L1 (Lasso) adds absolute weight penalties, promoting sparsity; L2 (Ridge) adds squared weight penalties, reducing weight magnitude.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "regularization",
+        "L1 regularization",
+        "L2 regularization",
+        "Lasso",
+        "Ridge",
+        "overfitting",
+        "loss function"
+      ]
+    }
+  },
+  {
+    "id": "204",
+    "text": "Question: Explain how a convolutional neural network (CNN) processes image data. Answer: CNNs use convolutional layers to extract features (e.g., edges), pooling layers to reduce dimensions, and fully connected layers for classification, leveraging spatial hierarchies in images.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "convolutional neural network",
+        "CNN",
+        "convolutional layers",
+        "pooling layers",
+        "fully connected layers",
+        "image processing",
+        "deep learning"
+      ]
+    }
+  },
+  {
+    "id": "205",
+    "text": "Question: What is cross-validation, and why is k-fold cross-validation preferred? Answer: Cross-validation evaluates model performance by splitting data into training/test sets. K-fold splits data into k subsets, training on k-1 and testing on 1, averaging results for robust performance estimation.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "cross-validation",
+        "k-fold cross-validation",
+        "training set",
+        "test set",
+        "model evaluation",
+        "performance estimation"
+      ]
+    }
+  },
+  {
+    "id": "206",
+    "text": "Question: How would you handle imbalanced datasets in a classification problem? Answer: Use oversampling (e.g., SMOTE), undersampling, class-weighted loss functions, or ensemble methods to balance model focus on minority classes.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "imbalanced datasets",
+        "oversampling",
+        "SMOTE",
+        "undersampling",
+        "class-weighted loss functions",
+        "ensemble methods",
+        "classification"
+      ]
+    }
+  },
+  {
+    "id": "207",
+    "text": "Question: Describe the architecture of a recurrent neural network (RNN) and its use cases. Answer: RNNs process sequential data with loops, retaining memory of previous inputs. Use cases: time-series prediction, speech recognition. Variants like LSTM handle long-term dependencies.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "recurrent neural network",
+        "RNN",
+        "sequential data",
+        "time-series prediction",
+        "speech recognition",
+        "LSTM",
+        "deep learning"
+      ]
+    }
+  },
+  {
+    "id": "208",
+    "text": "Question: What is transfer learning, and when would you use it in a deep learning project? Answer: Transfer learning uses pre-trained models (e.g., BERT, VGG) fine-tuned for specific tasks. Use when data is limited or training from scratch is computationally expensive.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "transfer learning",
+        "pre-trained models",
+        "BERT",
+        "VGG",
+        "fine-tuning",
+        "deep learning",
+        "data limitation"
+      ]
+    }
+  },
+  {
+    "id": "209",
+    "text": "Question: How do you evaluate the performance of a regression model? Name three metrics. Answer: Metrics: Mean Squared Error (MSE) for average squared errors, Mean Absolute Error (MAE) for average absolute errors, and R-squared for variance explained.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "regression model",
+        "Mean Squared Error",
+        "MSE",
+        "Mean Absolute Error",
+        "MAE",
+        "R-squared",
+        "model evaluation"
+      ]
+    }
+  },
+  {
+    "id": "210",
+    "text": "Question: Explain the concept of word embeddings in NLP. How does Word2Vec work? Answer: Word embeddings map words to dense vectors capturing semantic meaning. Word2Vec uses neural networks (CBOW or skip-gram) to predict words from context or vice versa.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "word embeddings",
+        "NLP",
+        "Word2Vec",
+        "CBOW",
+        "skip-gram",
+        "semantic meaning",
+        "natural language processing"
+      ]
+    }
+  },
+  {
+    "id": "211",
+    "text": "Question: What are hyperparameters, and how do you tune them (e.g., grid search vs. random search)? Answer: Hyperparameters are model settings (e.g., learning rate). Grid search tests all combinations; random search samples randomly, often faster for large spaces.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "Technical",
+      "keywords": [
+        "hyperparameters",
+        "grid search",
+        "random search",
+        "learning rate",
+        "model tuning",
+        "optimization"
+      ]
+    }
+  },
+  {
+    "id": "212",
+    "text": "Question: Describe a recent AI/ML project you worked on, including the problem, approach, and results. Answer: Example: Built a churn prediction model using logistic regression on customer data. Preprocessed with one-hot encoding, used grid search for hyperparameter tuning, and achieved 85% accuracy on test data.",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "General",
+      "keywords": [
+        "AI/ML project",
+        "churn prediction",
+        "logistic regression",
+        "one-hot encoding",
+        "grid search",
+        "hyperparameter tuning",
+        "accuracy"
+      ]
+    }
+  },
+  {
+    "id": "213",
+    "text": "Question: Unknown Answer: Unable to process paragraph",
+    "metadata": {
+      "source": "MLMLML.pdf",
+      "category": "General",
+      "keywords": [
+        "error",
+        "unknown"
+      ]
+    }
+  }
+]

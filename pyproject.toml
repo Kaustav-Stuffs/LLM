@@ -1,0 +1,15 @@
+[project]
+name = "rag-chatbot"
+version = "1.0.0"
+description = "General-Purpose RAG Chatbot with Enhanced Greeting Detection"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.27.0",
+    "langchain-ollama>=0.3.6",
+    "pypdf2>=3.0.1",
+    "python-docx>=1.2.0",
+    "rank-bm25>=0.2.2",
+    "scikit-learn>=1.7.1",
+    "streamlit>=1.47.1",
+    "torch>=2.7.1",
+]

@@ -1,0 +1,70 @@
+1.What is the purpose of the SFA (Sales Force Automation) application?
+The SFA application helps track client visits, schedule meetings, record expenses, and manage salesforce tasks digitally.
+2. How can I log in to the SFA application as a user?
+You need your Employee ID, Password, and Company Identifier to log in. Then tap on the "Login" button.
+3. Can an Admin/Manager log in with the same credentials format as a user?
+Yes, Admins/Managers also log in using their Employee ID, Password, and Company Identifier.
+4. How do I start or stop my Outdoor Duty (OD)?
+Tap the “Toggle Button” on the Dashboard to start or stop Outdoor Duty.
+5. Why is it important to create a meeting for every client visit?
+Creating meetings logs your visit and helps calculate travel distance, which is essential for tracking and reporting.
+6. How can I create a meeting for an existing client?
+Tap on “Meeting”, press (+), select “Existing Client”, choose the client, and enter meeting details after the meeting ends.
+7. How can I create a meeting for a new client?
+Tap on “Meeting”, press (+), select “New Client”, fill in client details, save, and then submit the meeting details.
+8. What does 'Mark Meeting Without Info' mean?
+It allows you to mark a meeting at a location without filling client or meeting details. Default info is saved automatically.
+9. Can I schedule a follow-up meeting while creating the current meeting?
+Yes, follow-ups can be scheduled during the meeting entry process.
+10. How can I add meeting-wise expenses?
+Go to the Meeting list, select a meeting, tap “Add Expense”, fill in details, and submit.
+11. Is it possible to view the route taken during OD meetings?
+Yes, each meeting includes a “Route” option that lets you view your OD path using a map.
+12. How do I create a new lead or client in the system?
+Go to “Leads/Clients”, tap (+), fill in the required fields, and tap “Add Lead/Client”.
+13. How can I update an existing lead or client?
+Select a lead/client, tap “Edit” on the top right, modify details, and tap “Update”.
+14. Can I add branches to an existing client?
+Yes, use the “Branch” option while editing a client to add branches.
+15. How can I schedule a future meeting?
+From the Leads/Clients list, choose the client, tap “Schedule Meeting”, enter details, and submit.
+16. Can an Admin/Manager schedule meetings for other users?
+Yes, Admins/Managers get a dropdown to assign meetings to users.
+17. What is the Follow-Ups section used for?
+It allows users to view, reschedule, cancel, or reassign previously scheduled follow-up meetings.
+18. Under what conditions can a meeting be rescheduled?
+Only if the assigned user hasn't started OD and the meeting time hasn't started.
+19. How can I reschedule a meeting?
+Go to Follow-Ups, select a meeting, tap “Reschedule”, fill in the details, and submit.
+20. How can I cancel a scheduled meeting?
+Go to Follow-Ups, select the meeting, tap “Cancel”, provide a cancellation remark, and submit.
+21. Can managers reassign meetings to other users?
+Yes, from the Follow-Ups section, managers can select a meeting, tap “Re-assign”, choose a user, and submit.
+22. How can I add day-wise expenses?
+Go to the “Expenses” section, tap (+), enter the expense details, and tap submit.
+23. Can I view the status of my submitted expenses?
+Yes, users can filter and view approved/rejected expenses in the Expenses section.
+24. Who can approve or reject submitted expenses?
+Only Managers or Approvers can approve/reject expenses.
+25. Can partial approvals be made for expenses?
+Yes, but only for individual expenses—not cumulative totals.
+26. What information is required to create a new client?
+To create a new client, you must fill in details such as Client Name, Contact Number, Email, Address, and optionally GST details.
+27. Can I add images or attachments while adding client or meeting details?
+Yes, the system supports uploading client images and meeting photos if required by your company.
+28. Is GPS tracking mandatory for OD and meetings?
+Yes, GPS is used to calculate distance traveled and log actual meeting locations.
+29. What should I do if GPS is turned off or unavailable during a meeting?
+You should enable GPS manually. If it remains unavailable, the app may not allow you to proceed.
+30. What is the role of the Company Identifier during login?
+The Company Identifier links the user credentials to a specific organization and is mandatory for login.
+31. Can users see a summary of their OD activities?
+Yes, a summary or report of OD start and end times, along with meeting count and distance covered, is available.
+32. What types of filters are available in the Meetings section?
+Users can filter meetings by Date, Client, Status (Pending/Completed), and Meeting Type.
+33. What is the use of 'Mark Without Meeting Info'?
+It allows field agents to quickly mark their location when client or meeting details aren't available on the spot.
+34. Can I edit a meeting after it has been submitted?
+No, once a meeting is submitted, it cannot be edited. You may request a manager to review or log a follow-up.
+35. How are distance and travel expenses calculated in the SFA App?
+The app calculates distance using GPS tracking and links expenses to OD and meetings for accountability.

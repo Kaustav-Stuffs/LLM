@@ -1,0 +1,59 @@
+RAG Chatbot Project - Download Instructions
+
+This project contains a complete RAG (Retrieval Augmented Generation) chatbot built with Streamlit.
+
+MAIN PROJECT FILES:
+===================
+
+Core Application:
+- app.py - Main Streamlit application interface
+- rag_engine.py - Search engine for document retrieval
+- document_processor.py - Handles file uploads and processing
+- llm_handler.py - AI response generation with Gemini
+- greeting_handler.py - Smart greeting/closing detection
+- utils.py - Helper utilities
+- replit.md - Complete project documentation
+
+Configuration:
+- pyproject.toml - Python dependencies
+- uv.lock - Dependency lock file
+
+Sample Data:
+- sample_document.txt - Test document for trying the system
+
+SETUP INSTRUCTIONS:
+==================
+
+1. Install Python 3.11 or later
+2. Install dependencies:
+   pip install streamlit google-genai
+
+3. Set up environment variable:
+   export GEMINI_API_KEY="your_gemini_api_key_here"
+
+4. Run the application:
+   streamlit run app.py --server.port 5000
+
+FEATURES:
+=========
+
+✓ Document upload (TXT, JSON, CSV)
+✓ Smart search through documents
+✓ AI-powered responses using Google Gemini
+✓ Advanced greeting detection with typo tolerance
+✓ Session-based chat interface
+✓ Offline-first architecture
+✓ Fallback responses when AI unavailable
+
+USAGE:
+======
+
+1. Upload documents using the sidebar
+2. Wait for processing to complete
+3. Ask questions about your documents
+4. Try various greetings: "hi", "helo", "good morning"
+5. Test closings: "thanks", "bye", "done"
+
+The system handles misspelled greetings and provides natural conversation flow.
+
+For questions or issues, refer to the detailed documentation in replit.md.

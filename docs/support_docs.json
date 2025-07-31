@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "question": "What is the purpose of the SFA application?",
+    "answer": "The SFA application helps track client visits, schedule meetings, record expenses, and manage salesforce tasks digitally.",
+    "category": "Overview",
+    "keywords": ["SFA", "purpose", "salesforce", "track", "meetings", "expenses", "client visits"]
+  },
+  {
+    "id": 2,
+    "question": "How can I log in to the SFA application as a user?",
+    "answer": "You need your Employee ID, Password, and Company Identifier to log in. Then tap the 'Login' button.",
+    "category": "Login",
+    "keywords": ["login", "user", "Employee ID", "Password", "Company Identifier"]
+  },
+  {
+    "id": 3,
+    "question": "Can an Admin or Manager log in with the same credentials format as a user?",
+    "answer": "Yes, Admins and Managers also log in using their Employee ID, Password, and Company Identifier.",
+    "category": "Login",
+    "keywords": ["login", "Admin", "Manager", "credentials", "Employee ID", "Password", "Company Identifier"]
+  },
+  {
+    "id": 4,
+    "question": "How do I start or stop my Outdoor Duty (OD)?",
+    "answer": "Tap the 'Toggle Button' on the Dashboard to start or stop Outdoor Duty.",
+    "category": "Outdoor Duty",
+    "keywords": ["Outdoor Duty", "OD", "start", "stop", "Toggle Button", "Dashboard"]
+  },
+  {
+    "id": 5,
+    "question": "Why is it important to create a meeting for every client visit?",
+    "answer": "Creating meetings logs your visit and helps calculate travel distance, which is essential for tracking and reporting.",
+    "category": "Meetings",
+    "keywords": ["meeting", "client visit", "travel distance", "tracking", "reporting"]
+  },
+  {
+    "id": 6,
+    "question": "How can I create a meeting for an existing client?",
+    "answer": "Tap 'Meeting', press the '+' button, select 'Existing Client', choose the client, and enter meeting details after the meeting ends.",
+    "category": "Meetings",
+    "keywords": ["meeting", "existing client", "create", "meeting details"]
+  },
+  {
+    "id": 7,
+    "question": "How can I create a meeting for a new client?",
+    "answer": "Tap 'Meeting', press the '+' button, select 'New Client', fill in client details, save, and then submit the meeting details.",
+    "category": "Meetings",
+    "keywords": ["meeting", "new client", "create", "client details", "submit"]
+  },
+  {
+    "id": 8,
+    "question": "What does 'Mark Meeting Without Info' mean?",
+    "answer": "It allows you to mark a meeting at a location without filling client or meeting details. Default info is saved automatically.",
+    "category": "Meetings",
+    "keywords": ["Mark Meeting Without Info", "meeting", "location", "default info"]
+  },
+  {
+    "id": 9,
+    "question": "Can I schedule a follow-up meeting while creating the current meeting?",
+    "answer": "Yes, follow-ups can be scheduled during the meeting entry process.",
+    "category": "Meetings",
+    "keywords": ["follow-up", "meeting", "schedule", "meeting entry"]
+  },
+  {
+    "id": 10,
+    "question": "How can I add meeting-wise expenses?",
+    "answer": "Go to the Meeting list, select a meeting, tap 'Add Expense', fill in details, and submit.",
+    "category": "Expenses",
+    "keywords": ["expenses", "meeting", "add expense", "submit"]
+  },
+  {
+    "id": 11,
+    "question": "Is it possible to view the route taken during OD meetings?",
+    "answer": "Yes, each meeting includes a 'Route' option that lets you view your OD path using a map.",
+    "category": "Outdoor Duty",
+    "keywords": ["route", "Outdoor Duty", "OD", "meetings", "map"]
+  },
+  {
+    "id": 12,
+    "question": "How do I create a new lead or client in the system?",
+    "answer": "Go to 'Leads/Clients', tap the '+' button, fill in the required fields, and tap 'Add Lead/Client'.",
+    "category": "Clients/Leads",
+    "keywords": ["lead", "client", "create", "add", "Leads/Clients"]
+  },
+  {
+    "id": 13,
+    "question": "How can I update an existing lead or client?",
+    "answer": "Select a lead or client, tap 'Edit' on the top right, modify details, and tap 'Update'.",
+    "category": "Clients/Leads",
+    "keywords": ["lead", "client", "update", "edit"]
+  },
+  {
+    "id": 14,
+    "question": "Can I add branches to an existing client?",
+    "answer": "Yes, use the 'Branch' option while editing a client to add branches.",
+    "category": "Clients/Leads",
+    "keywords": ["client", "branches", "add", "edit"]
+  },
+  {
+    "id": 15,
+    "question": "How can I schedule a future meeting?",
+    "answer": "From the Leads/Clients list, choose the client, tap 'Schedule Meeting', enter details, and submit.",
+    "category": "Meetings",
+    "keywords": ["schedule", "meeting", "future", "Leads/Clients", "submit"]
+  },
+  {
+    "id": 16,
+    "question": "Can an Admin or Manager schedule meetings for other users?",
+    "answer": "Yes, Admins and Managers get a dropdown to assign meetings to users.",
+    "category": "Meetings",
+    "keywords": ["Admin", "Manager", "schedule", "meetings", "assign", "users"]
+  },
+  {
+    "id": 17,
+    "question": "What is the Follow-Ups section used for?",
+    "answer": "It allows users to view, reschedule, cancel, or reassign previously scheduled follow-up meetings.",
+    "category": "Follow-Ups",
+    "keywords": ["Follow-Ups", "view", "reschedule", "cancel", "reassign", "meetings"]
+  },
+  {
+    "id": 18,
+    "question": "Under what conditions can a meeting be rescheduled?",
+    "answer": "Only if the assigned user hasn't started OD and the meeting time hasn't started.",
+    "category": "Follow-Ups",
+    "keywords": ["reschedule", "meeting", "Outdoor Duty", "OD", "conditions"]
+  },
+  {
+    "id": 19,
+    "question": "How can I reschedule a meeting?",
+    "answer": "Go to Follow-Ups, select a meeting, tap 'Reschedule', fill in the details, and submit.",
+    "category": "Follow-Ups",
+    "keywords": ["reschedule", "meeting", "Follow-Ups", "submit"]
+  },
+  {
+    "id": 20,
+    "question": "How can I cancel a scheduled meeting?",
+    "answer": "Go to Follow-Ups, select the meeting, tap 'Cancel', provide a cancellation remark, and submit.",
+    "category": "Follow-Ups",
+    "keywords": ["cancel", "meeting", "Follow-Ups", "cancellation remark", "submit"]
+  },
+  {
+    "id": 21,
+    "question": "Can managers reassign meetings to other users?",
+    "answer": "Yes, from the Follow-Ups section, managers can select a meeting, tap 'Re-assign', choose a user, and submit.",
+    "category": "Follow-Ups",
+    "keywords": ["reassign", "meeting", "managers", "Follow-Ups", "submit"]
+  },
+  {
+    "id": 22,
+    "question": "How can I add day-wise expenses?",
+    "answer": "Go to the 'Expenses' section, tap the '+' button, enter the expense details, and tap submit.",
+    "category": "Expenses",
+    "keywords": ["expenses", "day-wise", "add", "submit"]
+  },
+  {
+    "id": 23,
+    "question": "Can I view the status of my submitted expenses?",
+    "answer": "Yes, users can filter and view approved or rejected expenses in the Expenses section.",
+    "category": "Expenses",
+    "keywords": ["expenses", "status", "approved", "rejected", "filter"]
+  },
+  {
+    "id": 24,
+    "question": "Who can approve or reject submitted expenses?",
+    "answer": "Only Managers or Approvers can approve or reject expenses.",
+    "category": "Expenses",
+    "keywords": ["expenses", "approve", "reject", "Managers", "Approvers"]
+  },
+  {
+    "id": 25,
+    "question": "Can partial approvals be made for expenses?",
+    "answer": "Yes, but only for individual expenses, not cumulative totals.",
+    "category": "Expenses",
+    "keywords": ["expenses", "partial approvals", "individual expenses"]
+  },
+  {
+    "id": 26,
+    "question": "What information is required to create a new client?",
+    "answer": "To create a new client, you must fill in details such as Client Name, Contact Number, Email, Address, and optionally GST details.",
+    "category": "Clients/Leads",
+    "keywords": ["client", "create", "Client Name", "Contact Number", "Email", "Address", "GST"]
+  },
+  {
+    "id": 27,
+    "question": "Can I add images or attachments while adding client or meeting details?",
+    "answer": "Yes, the system supports uploading client images and meeting photos if required by your company.",
+    "category": "Clients/Leads",
+    "keywords": ["images", "attachments", "client", "meeting", "upload"]
+  },
+  {
+    "id": 28,
+    "question": "Is GPS tracking mandatory for OD намерения and meetings?",
+    "answer": "Yes, GPS is used to calculate distance traveled and log actual meeting locations.",
+    "category": "Outdoor Duty",
+    "keywords": ["GPS", "tracking", "Outdoor Duty", "OD", "meetings", "distance"]
+  },
+  {
+    "id": 29,
+    "question": "What should I do if GPS is turned off or unavailable during a meeting?",
+    "answer": "You should enable GPS manually. If it remains unavailable, the app may not allow you to proceed.",
+    "category": "Outdoor Duty",
+    "keywords": ["GPS", "unavailable", "Outdoor Duty", "meeting", "enable"]
+  },
+  {
+    "id": 30,
+    "question": "What is the role of the Company Identifier during login?",
+    "answer": "The Company Identifier links the user credentials to a specific organization and is mandatory for login.",
+    "category": "Login",
+    "keywords": ["Company Identifier", "login", "credentials", "organization"]
+  },
+  {
+    "id": 31,
+    "question": "Can users see a summary of their OD activities?",
+    "answer": "Yes, a summary or report of OD start and end times, along with meeting count and distance covered, is available.",
+    "category": "Outdoor Duty",
+    "keywords": ["Outdoor Duty", "OD", "summary", "report", "meetings", "distance"]
+  },
+  {
+    "id": 32,
+    "question": "What types of filters are available in the Meetings section?",
+    "answer": "Users can filter meetings by Date, Client, Status (Pending or Completed), and Meeting Type.",
+    "category": "Meetings",
+    "keywords": ["filters", "meetings", "Date", "Client", "Status", "Meeting Type"]
+  },
+  {
+    "id": 33,
+    "question": "What is the use of 'Mark Without Meeting Info'?",
+    "answer": "It allows field agents to quickly mark their location when client or meeting details aren't available on the spot.",
+    "category": "Meetings",
+    "keywords": ["Mark Without Meeting Info", "location", "field agents", "meetings"]
+  },
+  {
+    "id": 34,
+    "question": "Can I edit a meeting after it has been submitted?",
+    "answer": "No, once a meeting is submitted, it cannot be edited. You may request a manager to review or log a follow-up.",
+    "category": "Meetings",
+    "keywords": ["edit", "meeting", "submitted", "manager", "follow-up"]
+  },
+  {
+    "id": 35,
+    "question": "How are distance and travel expenses calculated in the SFA App?",
+    "answer": "The app calculates distance using GPS tracking and links expenses to Outdoor Duty and meetings for accountability.",
+    "category": "Outdoor Duty",
+    "keywords": ["distance", "travel expenses", "GPS", "Outdoor Duty", "meetings", "accountability"]
+  },
+  {
+    "id": 36,
+    "question": "How to connect to the customer support team?",
+    "answer": "You can reach out to the customer support team via the 'Help' section in the app or through the official support email support@watsoo.com, number 1800-123-4567.",
+    "category": "Support",
+    "keywords": ["customer support", "help", "app", "support email", "contact", "team"]
+  }
+]

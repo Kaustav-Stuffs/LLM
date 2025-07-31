@@ -1,0 +1,35 @@
+Welcome to the RAG Chatbot System
+
+This is a sample document that you can use to test the chatbot functionality. The RAG (Retrieval Augmented Generation) system allows you to upload documents and ask questions about their content.
+
+Key Features:
+- Document Upload: Support for TXT, JSON, and CSV file formats
+- Intelligent Search: Uses lexical search to find relevant information
+- AI-Powered Responses: Generates answers using Google Gemini AI
+- Smart Greeting Detection: Handles various types of greetings and farewells
+- Session Management: Maintains chat history during your session
+
+How to Use:
+1. Upload your documents using the file uploader in the sidebar
+2. Wait for the documents to be processed
+3. Ask questions about the content in natural language
+4. The system will search through your documents and provide relevant answers
+
+The chatbot can understand various greeting formats including:
+- Standard greetings: hello, hi, hey
+- Misspelled greetings: helo, hii, heyyy
+- Time-based greetings: good morning, good afternoon
+- Casual greetings: yo, sup, what's up
+
+It also recognizes different ways to say goodbye:
+- Standard: bye, goodbye, see you
+- Informal: thx, thanks, ok, done
+- Misspelled: thanx, bye bye, c u later
+
+Example Questions You Can Ask:
+- "What are the key features of this system?"
+- "How do I upload documents?"
+- "What file formats are supported?"
+- "Tell me about greeting detection"
+
+This sample document contains information about the RAG chatbot system itself, making it perfect for testing the search and response capabilities.

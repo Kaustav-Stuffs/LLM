@@ -1,0 +1,313 @@
+[
+  {
+    "id": "300",
+    "text": "Question: What is the difference between supervised and unsupervised learning? Answer: Supervised learning uses labeled data to predict outcomes, like spam email detection. Unsupervised learning finds patterns in unlabeled data, like customer segmentation.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "supervised learning",
+        "unsupervised learning",
+        "labeled data",
+        "unlabeled data",
+        "spam detection",
+        "customer segmentation"
+      ]
+    }
+  },
+  {
+    "id": "301",
+    "text": "Question: How does a decision tree work, and how can you handle overfitting? Answer: A decision tree splits data into branches based on feature values. Overfitting is handled by pruning, limiting tree depth, or setting a minimum number of samples per leaf.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "decision tree",
+        "overfitting",
+        "pruning",
+        "tree depth",
+        "samples per leaf"
+      ]
+    }
+  },
+  {
+    "id": "302",
+    "text": "Question: What is the bias-variance tradeoff, and how does it impact model performance? Answer: The bias-variance tradeoff balances model complexity. High bias causes underfitting, and high variance causes overfitting. Optimal models minimize both.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "bias-variance tradeoff",
+        "underfitting",
+        "overfitting",
+        "model complexity",
+        "generalization"
+      ]
+    }
+  },
+  {
+    "id": "303",
+    "text": "Question: How does gradient descent optimize a machine learning model? Answer: Gradient descent iteratively updates model parameters by minimizing a loss function using a learning rate.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "gradient descent",
+        "optimization",
+        "loss function",
+        "learning rate",
+        "model parameters"
+      ]
+    }
+  },
+  {
+    "id": "304",
+    "text": "Question: What are precision, recall, and F1-score? When would you prioritize one over the others? Answer: Precision is true positives/(true positives + false positives); recall is true positives/(true positives + false negatives); F1-score is their harmonic mean. Prioritize precision for low false positives, and recall for low false negatives.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "precision",
+        "recall",
+        "F1-score",
+        "false positives",
+        "false negatives",
+        "evaluation metrics"
+      ]
+    }
+  },
+  {
+    "id": "305",
+    "text": "Question: Explain the role of activation functions in neural networks. Compare ReLU and sigmoid. Answer: Activation functions introduce non-linearity. ReLU is computationally efficient, but can cause dead neurons. Sigmoid outputs 0-1, but is prone to vanishing gradients.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "activation function",
+        "neural network",
+        "ReLU",
+        "sigmoid",
+        "non-linearity",
+        "vanishing gradients"
+      ]
+    }
+  },
+  {
+    "id": "306",
+    "text": "Question: How would you preprocess text data for an NLP task? Answer: Tokenize text, convert to lowercase, remove stop words/punctuation, apply stemming/lemmatization, and encode (e.g., TF-IDF or word embeddings).",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "text preprocessing",
+        "NLP",
+        "tokenization",
+        "stemming",
+        "lemmatization",
+        "TF-IDF",
+        "word embeddings"
+      ]
+    }
+  },
+  {
+    "id": "307",
+    "text": "Question: What is the vanishing gradient problem, and how can it be mitigated? Answer: Vanishing gradients occur when gradients become too small during backpropagation, slowing learning. Mitigate with ReLU activation, batch normalization, or architectures like LSTM/GRU.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "vanishing gradients",
+        "backpropagation",
+        "ReLU",
+        "batch normalization",
+        "LSTM",
+        "GRU"
+      ]
+    }
+  },
+  {
+    "id": "308",
+    "text": "Question: Describe the k-means clustering algorithm and its limitations. Answer: K-means assigns data points to k clusters by minimizing within-cluster variance. Limitations: assumes spherical clusters, sensitive to outliers, and requires predefined k.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "k-means",
+        "clustering",
+        "within-cluster variance",
+        "spherical clusters",
+        "outliers",
+        "predefined k"
+      ]
+    }
+  },
+  {
+    "id": "309",
+    "text": "Question: How do you select features for a machine learning model? Name two techniques. Answer: Feature selection reduces irrelevant features. Techniques: filter methods (e.g., correlation analysis) and wrapper methods (e.g., recursive feature elimination).",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "feature selection",
+        "filter methods",
+        "wrapper methods",
+        "correlation analysis",
+        "recursive feature elimination",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "310",
+    "text": "Question: What is regularization, and how do L1 and L2 regularization differ? Answer: Regularization adds a penalty to the loss function to prevent overfitting. L1 adds absolute weight penalties, promoting sparsity; L2 adds squared weight penalties, reducing weight magnitude.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "regularization",
+        "L1",
+        "L2",
+        "overfitting",
+        "sparsity",
+        "weight magnitude"
+      ]
+    }
+  },
+  {
+    "id": "311",
+    "text": "Question: Explain how a convolutional neural network (CNN) processes image data. Answer: CNNs use convolutional layers to extract features, pooling layers to reduce dimensions, and fully connected layers for classification, leveraging spatial hierarchies in images.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "CNN",
+        "convolutional neural network",
+        "image processing",
+        "convolutional layers",
+        "pooling layers",
+        "fully connected layers"
+      ]
+    }
+  },
+  {
+    "id": "312",
+    "text": "Question: What is cross-validation, and why is k-fold cross-validation preferred? Answer: Cross-validation evaluates model performance by splitting data into training/test sets. K-fold splits data into k subsets, training on k-1 and testing on 1, averaging results.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "cross-validation",
+        "k-fold cross-validation",
+        "training set",
+        "test set",
+        "model performance"
+      ]
+    }
+  },
+  {
+    "id": "313",
+    "text": "Question: How would you handle imbalanced datasets in a classification problem? Answer: Use oversampling (e.g., SMOTE), undersampling, class-weighted loss functions, or ensemble methods.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "imbalanced datasets",
+        "oversampling",
+        "undersampling",
+        "SMOTE",
+        "class-weighted loss functions",
+        "ensemble methods"
+      ]
+    }
+  },
+  {
+    "id": "314",
+    "text": "Question: Describe the architecture of a recurrent neural network (RNN) and its use cases. Answer: RNNs process sequential data with loops, retaining memory of previous inputs. Use cases: time-series prediction, speech recognition. Variants like LSTM handle long-term dependencies.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "RNN",
+        "recurrent neural network",
+        "sequential data",
+        "time-series prediction",
+        "speech recognition",
+        "LSTM"
+      ]
+    }
+  },
+  {
+    "id": "315",
+    "text": "Question: What is transfer learning, and when would you use it in a deep learning project? Answer: Transfer learning uses pre-trained models (e.g., BERT, VGG) fine-tuned for specific tasks. Use when data is limited or training from scratch is computationally expensive.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "transfer learning",
+        "pre-trained models",
+        "BERT",
+        "VGG",
+        "deep learning"
+      ]
+    }
+  },
+  {
+    "id": "316",
+    "text": "Question: How do you evaluate the performance of a regression model? Name three metrics. Answer: Metrics: Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "regression",
+        "evaluation",
+        "MSE",
+        "MAE",
+        "R-squared"
+      ]
+    }
+  },
+  {
+    "id": "317",
+    "text": "Question: Explain the concept of word embeddings in NLP. How does Word2Vec work? Answer: Word embeddings map words to dense vectors capturing semantic meaning. Word2Vec uses neural networks (CBOW or skip-gram) to predict words from context or vice versa.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "word embeddings",
+        "NLP",
+        "Word2Vec",
+        "CBOW",
+        "skip-gram"
+      ]
+    }
+  },
+  {
+    "id": "318",
+    "text": "Question: What are hyperparameters, and how do you tune them (e.g., grid search vs. random search)? Answer: Hyperparameters are model settings (e.g., learning rate). Grid search tests all combinations; random search samples randomly.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "hyperparameters",
+        "grid search",
+        "random search",
+        "learning rate"
+      ]
+    }
+  },
+  {
+    "id": "319",
+    "text": "Question: Describe a recent AI/ML project you worked on, including the problem, approach, and results. Answer: Example: Built a churn prediction model using logistic regression on customer data, achieving 85% accuracy.",
+    "metadata": {
+      "source": "faq",
+      "category": "Overview",
+      "keywords": [
+        "AI/ML project",
+        "churn prediction",
+        "logistic regression",
+        "customer data",
+        "accuracy"
+      ]
+    }
+  }
+]
